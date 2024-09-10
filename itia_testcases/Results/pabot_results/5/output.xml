@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.12.3 on win32)" generated="2024-09-09T15:36:45.698999" rpa="false" schemaversion="5">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Test Verify Login With Invalid Email" source="C:\Users\puchha.pavan\PycharmProjects\Telus_iTIA_Powered_by_Fuel_iX\iTIA_Powered_by_Fuel_iX\itia_testcases\LoginPage_TC\Test_Verify_Login_With_Invalid_Email.robot">
+<test id="s1-s1-t1" name="Verify_Login_With_Invalid_Email" line="9">
+<kw name="launching_the_browser" owner="BaseClass_Keyword" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-09-09T15:36:46.131308" level="INFO">Opening browser 'chrome' to base url 'https://mqa2.xavlab.xyz/'.</msg>
+<arg>${site-url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-09-09T15:36:46.131012" elapsed="31.272641"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-09-09T15:37:17.404649" elapsed="0.223485"/>
+</kw>
+<kw name="Set Selenium Implicit Wait" owner="SeleniumLibrary">
+<arg>10Seconds</arg>
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<status status="PASS" start="2024-09-09T15:37:17.628626" elapsed="0.004153"/>
+</kw>
+<kw name="clear_all_ookies" owner="Common_Functions">
+<kw name="Delete All Cookies" owner="SeleniumLibrary">
+<doc>Deletes all cookies.</doc>
+<status status="PASS" start="2024-09-09T15:37:17.634324" elapsed="0.036327"/>
+</kw>
+<doc>Clear all cookies</doc>
+<status status="PASS" start="2024-09-09T15:37:17.633777" elapsed="0.037371"/>
+</kw>
+<kw name="Set Selenium Speed" owner="SeleniumLibrary">
+<arg>0.01</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" start="2024-09-09T15:37:17.671148" elapsed="0.000993"/>
+</kw>
+<doc>This keyword for launching the browser</doc>
+<status status="PASS" start="2024-09-09T15:36:46.129514" elapsed="31.543145"/>
+</kw>
+<kw name="input_username_onloginpage" owner="LoginPage_Keyword">
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-09-09T15:37:19.678521" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-09-09T15:37:17.675541" elapsed="2.002980"/>
+</kw>
+<kw name="checking_textBox_displayed_status-and_input_value_in _textbox" owner="Common_Functions">
+<kw name="Element Should Be Visible" owner="SeleniumLibrary">
+<msg time="2024-09-09T15:37:19.832863" level="INFO">Element 'name:username' is displayed.</msg>
+<arg>${Webelement}</arg>
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<status status="PASS" start="2024-09-09T15:37:19.681791" elapsed="0.151072"/>
+</kw>
+<kw name="Element Should Be Enabled" owner="SeleniumLibrary">
+<arg>${Webelement}</arg>
+<doc>Verifies that element identified by ``locator`` is enabled.</doc>
+<status status="PASS" start="2024-09-09T15:37:19.833357" elapsed="0.147582"/>
+</kw>
+<kw name="Clear Element Text" owner="SeleniumLibrary">
+<arg>${Webelement}</arg>
+<doc>Clears the value of the text-input-element identified by ``locator``.</doc>
+<status status="PASS" start="2024-09-09T15:37:19.981436" elapsed="0.130896"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-09-09T15:37:20.114860" level="INFO">Typing text 'invalid' into text field 'name:username'.</msg>
+<arg>${Webelement}</arg>
+<arg>${input_text_value}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-09-09T15:37:20.113328" elapsed="0.453229"/>
+</kw>
+<arg>${txt_loginpageusername}</arg>
+<arg>${username}</arg>
+<status status="PASS" start="2024-09-09T15:37:19.679690" elapsed="0.886867"/>
+</kw>
+<arg>${invalid-username}</arg>
+<status status="PASS" start="2024-09-09T15:37:17.673155" elapsed="2.893899"/>
+</kw>
+<kw name="click_login_button_onloginpage" owner="LoginPage_Keyword">
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>${txt_clickloginbutton}</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2024-09-09T15:37:20.568048" elapsed="0.053758"/>
+</kw>
+<kw name="checking_button_displayed_status-and_click_on_button" owner="Common_Functions">
+<kw name="Element Should Be Visible" owner="SeleniumLibrary">
+<msg time="2024-09-09T15:37:20.688184" level="INFO">Element 'xpath://*[text()='Login']' is displayed.</msg>
+<arg>${Webelement}</arg>
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<status status="PASS" start="2024-09-09T15:37:20.623794" elapsed="0.064390"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-09-09T15:37:20.689177" level="INFO">Clicking button 'xpath://*[text()='Login']'.</msg>
+<arg>${Webelement}</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-09-09T15:37:20.688680" elapsed="0.256210"/>
+</kw>
+<arg>${txt_clickloginbutton}</arg>
+<status status="PASS" start="2024-09-09T15:37:20.622303" elapsed="0.323084"/>
+</kw>
+<status status="PASS" start="2024-09-09T15:37:20.567551" elapsed="0.377836"/>
+</kw>
+<kw name="validating_error_message_after_inputing_invalid_email" owner="LoginPage_Keyword">
+<kw name="Set Selenium Timeout" owner="SeleniumLibrary">
+<arg>10 seconds</arg>
+<doc>Sets the timeout that is used by various keywords.</doc>
+<status status="PASS" start="2024-09-09T15:37:20.947373" elapsed="0.013382"/>
+</kw>
+<kw name="verifying_validation_message" owner="Common_Functions">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${Webelement}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-09-09T15:37:20.962221" elapsed="0.084789"/>
+</kw>
+<kw name="Get Text" owner="SeleniumLibrary">
+<msg time="2024-09-09T15:37:21.122776" level="INFO">${toast_msg} = Email is not valid.</msg>
+<var>${toast_msg}</var>
+<arg>${Webelement}</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-09-09T15:37:21.047348" elapsed="0.075949"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${toast_msg}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-09-09T15:37:21.123770" elapsed="0.002278"/>
+</kw>
+<kw name="Should Be Equal" owner="BuiltIn">
+<arg>${toast_msg}</arg>
+<arg>${Expected_message}</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status status="PASS" start="2024-09-09T15:37:21.127190" elapsed="0.001619"/>
+</kw>
+<arg>${invalid_email}</arg>
+<arg>${Expected_username_error_validation-msg}</arg>
+<status status="PASS" start="2024-09-09T15:37:20.961653" elapsed="0.167156"/>
+</kw>
+<arg>${expected_username_error_validation-msg}</arg>
+<status status="PASS" start="2024-09-09T15:37:20.945883" elapsed="0.183293"/>
+</kw>
+<kw name="closing_the_browser" owner="BaseClass_Keyword" type="TEARDOWN">
+<kw name="Run Keyword If Test Failed" owner="BuiltIn">
+<arg>Capture Page Screenshot</arg>
+<arg>Faild_screenshot.png</arg>
+<doc>Runs the given keyword with the given arguments, if the test failed.</doc>
+<status status="PASS" start="2024-09-09T15:37:21.130170" elapsed="0.000495"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-09-09T15:37:21.130665" elapsed="3.433508"/>
+</kw>
+<doc>This keyword for closing the current browser</doc>
+<status status="PASS" start="2024-09-09T15:37:21.129673" elapsed="3.434500"/>
+</kw>
+<doc>This is    basic login test for virtual assistant webapp using invalid email credential</doc>
+<tag>functionaltestcase</tag>
+<tag>login</tag>
+<status status="PASS" start="2024-09-09T15:36:46.127665" elapsed="38.436508"/>
+</test>
+<status status="PASS" start="2024-09-09T15:36:45.731303" elapsed="38.834751"/>
+</suite>
+<status status="PASS" start="2024-09-09T15:36:45.714296" elapsed="38.853600"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">functionaltestcase</stat>
+<stat pass="1" fail="0" skip="0">login</stat>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Suites">Suites</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Test Verify Login With Invalid Email">Suites.Test Verify Login With Invalid Email</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

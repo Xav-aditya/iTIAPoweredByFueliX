@@ -1,0 +1,15 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Test Verify Forgot Password Link                                       
+==============================================================================
+Verify_Forgot_Password_Link :: This is Forgot_password test for vi... A verification email has been sent to your email
+| PASS |
+------------------------------------------------------------------------------
+Suites.Test Verify Forgot Password Link                               | PASS |
+1 test, 1 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+1 test, 1 passed, 0 failed
+==============================================================================
+Output:  C:\Users\puchha.pavan\PycharmProjects\Telus_iTIA_Powered_by_Fuel_iX\iTIA_Powered_by_Fuel_iX\itia_testcases\Results\pabot_results\1\output.xml

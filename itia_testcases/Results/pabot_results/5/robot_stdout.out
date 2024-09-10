@@ -1,0 +1,15 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Test Verify Login With Invalid Email                                   
+==============================================================================
+Verify_Login_With_Invalid_Email :: This is    basic login test for... Email is not valid.
+| PASS |
+------------------------------------------------------------------------------
+Suites.Test Verify Login With Invalid Email                           | PASS |
+1 test, 1 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+1 test, 1 passed, 0 failed
+==============================================================================
+Output:  C:\Users\puchha.pavan\PycharmProjects\Telus_iTIA_Powered_by_Fuel_iX\iTIA_Powered_by_Fuel_iX\itia_testcases\Results\pabot_results\5\output.xml

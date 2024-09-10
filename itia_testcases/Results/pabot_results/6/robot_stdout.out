@@ -1,0 +1,14 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Test Verify Login With Valid Credentials                               
+==============================================================================
+Verify_Login_With_Valid_Credentials :: Testing Login With Valid Cr... | PASS |
+------------------------------------------------------------------------------
+Suites.Test Verify Login With Valid Credentials                       | PASS |
+1 test, 1 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+1 test, 1 passed, 0 failed
+==============================================================================
+Output:  C:\Users\puchha.pavan\PycharmProjects\Telus_iTIA_Powered_by_Fuel_iX\iTIA_Powered_by_Fuel_iX\itia_testcases\Results\pabot_results\6\output.xml
