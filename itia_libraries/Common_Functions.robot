@@ -84,3 +84,9 @@ Verify_mouse_hover_action
         Wait Until Element Is Visible    ${WebElement}
         Mouse Over    ${WebElement}
 
+checking_icon_displayed_status-and_click_on_Icon
+    [Arguments]    ${Web-element}
+    # checking visibility    Status and enabling status for UI-Icons
+    Element Should Be Visible    ${Web-element}
+    ## clicking on Icons
+    Click Element  ${Web-element}

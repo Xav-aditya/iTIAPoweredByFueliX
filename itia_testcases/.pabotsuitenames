@@ -1,8 +1,11 @@
-datasources:7e8e90781ea06d7ee37345cf683924583a2f0729
+datasources:19160dd87d6196ed8e5408d9cf3eada9b37722b6
 commandlineoptions:9f8598a690c7367accf83ead504756ddd374acc9
 suitesfrom:no-suites-from-option
-file:38ddf4a2aa13831ce72e171dd57fef3662a34ca4
---suite Suites.Test Verify User Adds AnswerCard Inside Intent To Qa CentralRepo And Validate Sucess Message
---suite Suites.Test Verify User Create NewTemplateFolder Rename And Delete To Flow And Qa CentralRepo And Validate Sucess Message
---suite Suites.Test Verify User CreateNewIntent To Qa CentralRepo And Validate Sucess Message
---suite Suites.Test Verify User Edit and Delete the ExistingIntent UnderAction For Qa CentralRepo And Validate Sucess Message
+file:7aab549bb66f7545845d0d21621de308748e9b10
+--suite Suites.Test Verify Forgot Domain Link
+--suite Suites.Test Verify Forgot Password Link
+--suite Suites.Test Verify Login With Invalid Credentials Domain
+--suite Suites.Test Verify Login With Invalid Credentials Email
+--suite Suites.Test Verify Login With Invalid Credentials Password
+--suite Suites.Test Verify Login With Invalid Email
+--suite Suites.Test Verify Login with Valid Credentials

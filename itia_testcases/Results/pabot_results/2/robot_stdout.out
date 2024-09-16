@@ -1,14 +1,12 @@
 ==============================================================================
 Suites                                                                        
 ==============================================================================
-Suites.Test Verify User CreateNewIntent To Qa CentralRepo And Validate Suce...
+Suites.Test Verify Login With Invalid Credentials Domain                      
 ==============================================================================
-Verify User CreateNewIntent in Qa And Flow CentralRepo And Validat... https://mqa2.xavlab.xyz/central-repository
-Added successfully!
-Template Created Successfully.
+Verify_Login_With_Invalid_Credentials_Domain :: This is    basic l... Invalid Domain
 | PASS |
 ------------------------------------------------------------------------------
-Suites.Test Verify User CreateNewIntent To Qa CentralRepo And Vali... | PASS |
+Suites.Test Verify Login With Invalid Credentials Domain              | PASS |
 1 test, 1 passed, 0 failed
 ==============================================================================
 Suites                                                                | PASS |

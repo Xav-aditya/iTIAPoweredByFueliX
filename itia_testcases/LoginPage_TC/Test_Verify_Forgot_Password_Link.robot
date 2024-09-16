@@ -1,21 +1,21 @@
 *** Settings ***
 Resource            ../../utility/itia_import.robot
 
-Test Setup          launching_the_browser
-Test Teardown       closing_the_browser
+Test Setup          Launching_The_Browser
+Test Teardown       Closing_The_Browser
 
 
 *** Test Cases ***
 Verify_Forgot_Password_Link
     [Documentation]    This is Forgot_password test for virtual assistant webapp
     [Tags]    login    functionaltestcase
-    input_username_onloginpage    ${username}
-    click_login_button_onloginpage
-    input_domain-name_onloginpage    ${domain_name}
-    click_login_button_onloginpage
-    click_forgot_password_link_onloginpage
-    input_username_onForgotpasswordpage    ${username}
-    click_submit_Button_onForgotpasswordpage
-    input_domain-name_onForgotpasswordpage    ${domain_name}
-    click_submit_Button_onForgotpasswordpage
-    validating_Forget_domain_linkSentMessage    ${expected_forgot_password_linkSent_msg}
+    Input_Username_OnForgotDomainpage    ${username}
+    Click_Login_Button_OnLoginpage
+    Input_Domain-Name_OnLoginpage    ${domain_name}
+    Click_Login_Button_OnLoginpage
+    Click_Forgot_Password_Link_OnLoginpage
+    Input_Username_OnForgotDomainpage    ${username}
+    Click_Submit_Button_OnForgotPasswordpage
+    Input_Domain-Name_OnForgotPasswordpage    ${domain_name}
+    Click_Submit_Button_OnForgotPasswordpage
+    Validating_Forget_Domain_LinkSentMessage    ${expected_forgot_password_linkSent_msg}

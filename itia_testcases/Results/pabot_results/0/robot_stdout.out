@@ -1,14 +1,12 @@
 ==============================================================================
 Suites                                                                        
 ==============================================================================
-Suites.Test Verify User Adds AnswerCard Inside Intent To Qa CentralRepo And...
+Suites.Test Verify Forgot Domain Link                                         
 ==============================================================================
-Verify_User_Adds_AnswerCard_Inside_Intent_To_Qa_CentralRepo_And_Va... https://mqa2.xavlab.xyz/central-repository
-Added successfully!
-Template Created Successfully.
+Verify_Forgot_Domain_Link :: This is Forgot_domain_name test for v... an email with list of user domains has been sent to the registered email address
 | PASS |
 ------------------------------------------------------------------------------
-Suites.Test Verify User Adds AnswerCard Inside Intent To Qa Centra... | PASS |
+Suites.Test Verify Forgot Domain Link                                 | PASS |
 1 test, 1 passed, 0 failed
 ==============================================================================
 Suites                                                                | PASS |
