@@ -5,58 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5ed14f5-fe9a-4acc-8b20-30b421fdbd7d" name="Changes" comment="refactor done">
-      <change afterPath="$PROJECT_DIR$/itia_testcases/Central_RepositoryPage_TC/TC05.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itia_testcases/Central_RepositoryPage_TC/TC07.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itia_testcases/Central_RepositoryPage_TC/Test_Verify_User_ChangeRepository_FromDropDown_Menu_Inside_Flow_And_Qa_CentralRepo.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itia_testcases/Central_RepositoryPage_TC/Test_Verify_User_Navigates_To_Flow_And_Qa_CentralRepo.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itia_testcases/LoginPage_TC/Test_Verify_Login_with_Valid_Credentials.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itia_testcases/LoginPage_TC_01/Test_Verify_Forgot_Domain_Link.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itia_testcases/LoginPage_TC_01/Test_Verify_Forgot_Password_Link.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itia_testcases/LoginPage_TC_01/Test_Verify_Login_With_Invalid_Credentials_Domain.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itia_testcases/LoginPage_TC_01/Test_Verify_Login_With_Invalid_Credentials_Email.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itia_testcases/LoginPage_TC_01/Test_Verify_Login_With_Invalid_Credentials_Password.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itia_testcases/LoginPage_TC_01/Test_Verify_Login_With_Invalid_Email.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itia_testcases/Results/6-AnalyticsandReportpagescreenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itia_testcases/Results/6-AnalyticsandReporttextscreenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itia_testcases/Results/pabot_results/4/output.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itia_testcases/Results/pabot_results/4/robot_stderr.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itia_testcases/Results/pabot_results/4/robot_stdout.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itia_testcases/Results/pabot_results/5/output.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itia_testcases/Results/pabot_results/5/robot_stderr.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itia_testcases/Results/pabot_results/5/robot_stdout.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itia_testcases/Results/pabot_results/6/AnalyticsandReportpagescreenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itia_testcases/Results/pabot_results/6/AnalyticsandReporttextscreenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itia_testcases/Results/pabot_results/6/output.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itia_testcases/Results/pabot_results/6/robot_stderr.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itia_testcases/Results/pabot_results/6/robot_stdout.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_datafiles/CentralRepositoryPage_Variables.robot" beforeDir="false" afterPath="$PROJECT_DIR$/itia_datafiles/CentralRepositoryPage_Variables.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_libraries/Common_Functions.robot" beforeDir="false" afterPath="$PROJECT_DIR$/itia_libraries/Common_Functions.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_pageobject/CentralRepositoryPage_Locators.robot" beforeDir="false" afterPath="$PROJECT_DIR$/itia_pageobject/CentralRepositoryPage_Locators.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_resources/BaseClass_Keyword.robot" beforeDir="false" afterPath="$PROJECT_DIR$/itia_resources/BaseClass_Keyword.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_resources/CentralRepositoryPage_Keyword.robot" beforeDir="false" afterPath="$PROJECT_DIR$/itia_resources/CentralRepositoryPage_Keyword.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_resources/LoginPage_Keyword.robot" beforeDir="false" afterPath="$PROJECT_DIR$/itia_resources/LoginPage_Keyword.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_testcases/.pabotsuitenames" beforeDir="false" afterPath="$PROJECT_DIR$/itia_testcases/.pabotsuitenames" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_testcases/LoginPage_TC/Test_Verify_Forgot_Domain_Link.robot" beforeDir="false" afterPath="$PROJECT_DIR$/itia_testcases/LoginPage_TC/Test_Verify_Forgot_Domain_Link.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_testcases/LoginPage_TC/Test_Verify_Forgot_Password_Link.robot" beforeDir="false" afterPath="$PROJECT_DIR$/itia_testcases/LoginPage_TC/Test_Verify_Forgot_Password_Link.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_testcases/LoginPage_TC/Test_Verify_Login_With_Invalid_Credentials_Domain.robot" beforeDir="false" afterPath="$PROJECT_DIR$/itia_testcases/LoginPage_TC/Test_Verify_Login_With_Invalid_Credentials_Domain.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_testcases/LoginPage_TC/Test_Verify_Login_With_Invalid_Credentials_Email.robot" beforeDir="false" afterPath="$PROJECT_DIR$/itia_testcases/LoginPage_TC/Test_Verify_Login_With_Invalid_Credentials_Email.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_testcases/LoginPage_TC/Test_Verify_Login_With_Invalid_Credentials_Password.robot" beforeDir="false" afterPath="$PROJECT_DIR$/itia_testcases/LoginPage_TC/Test_Verify_Login_With_Invalid_Credentials_Password.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_testcases/LoginPage_TC/Test_Verify_Login_With_Invalid_Email.robot" beforeDir="false" afterPath="$PROJECT_DIR$/itia_testcases/LoginPage_TC/Test_Verify_Login_With_Invalid_Email.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_testcases/LoginPage_TC/Test_Verify_Login_With_Valid_Credentials.robot" beforeDir="false" afterPath="$PROJECT_DIR$/itia_testcases/LoginPage_TC_01/Test_Verify_Login_With_Valid_Credentials.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_testcases/Results/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/itia_testcases/Results/log.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_testcases/Results/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itia_testcases/Results/output.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_testcases/Results/pabot_results/0/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itia_testcases/Results/pabot_results/0/output.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_testcases/Results/pabot_results/0/robot_stdout.out" beforeDir="false" afterPath="$PROJECT_DIR$/itia_testcases/Results/pabot_results/0/robot_stdout.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_testcases/Results/pabot_results/1/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itia_testcases/Results/pabot_results/1/output.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_testcases/Results/pabot_results/1/robot_stdout.out" beforeDir="false" afterPath="$PROJECT_DIR$/itia_testcases/Results/pabot_results/1/robot_stdout.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_testcases/Results/pabot_results/2/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itia_testcases/Results/pabot_results/2/output.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_testcases/Results/pabot_results/2/robot_stdout.out" beforeDir="false" afterPath="$PROJECT_DIR$/itia_testcases/Results/pabot_results/2/robot_stdout.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_testcases/Results/pabot_results/3/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itia_testcases/Results/pabot_results/3/output.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_testcases/Results/pabot_results/3/robot_stdout.out" beforeDir="false" afterPath="$PROJECT_DIR$/itia_testcases/Results/pabot_results/3/robot_stdout.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_testcases/Results/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/itia_testcases/Results/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run.bat" beforeDir="false" afterPath="$PROJECT_DIR$/run.bat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +22,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
