@@ -8,7 +8,7 @@ launching_the_browser
         Maximize Browser Window
         Set Selenium Implicit Wait    10Seconds
         clear_all_ookies
-        Set Selenium Speed    0.01
+        Set Selenium Speed    0.1
 
 closing_the_browser
         [Documentation]     This keyword for closing the current browser

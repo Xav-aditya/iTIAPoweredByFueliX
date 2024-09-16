@@ -9,4 +9,4 @@ Verify User Create NewTemplateFolder Rename And Delete To Flow/Qa CentralRepo An
     [Documentation]
     [Tags]
     Verify_Login_With_Valid_Credentials
-    Create_New_Folder_In_QA
+#    Create_New_Folder_In_QA

@@ -1,7 +1,7 @@
 *** Variables ***
 ${browser}                                      chrome
 ${site-url}                                     https://mqa2.xavlab.xyz/
-${password}                                     *Pavan@4331
+${password}                                     *Pavan@7351
 ${username}                                     puchha.pavan@telusinternational.com
 ${domain_name}                                  xd
 

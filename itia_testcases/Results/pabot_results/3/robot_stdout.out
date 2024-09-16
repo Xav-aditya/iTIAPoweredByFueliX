@@ -1,12 +1,17 @@
 ==============================================================================
 Suites                                                                        
 ==============================================================================
-Suites.Test Verify Login With Invalid Credentials Email                       
+Suites.Test Verify User Edit and Delete the ExistingIntent UnderAction For ...
 ==============================================================================
-Verify_Login_With_Invalid_Credentials_Email :: This is    basic lo... Something Went Wrong
+Verify User Edit Existing Intent UnderActions for Flow And Qa Cent... https://mqa2.xavlab.xyz/central-repository
+Added successfully!
+Template Created Successfully.
+Template Updated Successfully.
+Duplicate interaction created successfully
+1 template(s) deleted successfully
 | PASS |
 ------------------------------------------------------------------------------
-Suites.Test Verify Login With Invalid Credentials Email               | PASS |
+Suites.Test Verify User Edit and Delete the ExistingIntent UnderAc... | PASS |
 1 test, 1 passed, 0 failed
 ==============================================================================
 Suites                                                                | PASS |
