@@ -33,6 +33,9 @@ ${button_title1}                                            Button1
 ${button_title2}                                            Button2
 ${query1}                                                   Explain all Answer cards in the chat bot
 ${url_popup}                                                https://www.w3schools.com/cssref/css_selectors.php
+${update_name}                                              Test123
+${expected_rename_folder_message}                           Updated successfully!
+${expected_delete_folder_message}                           Deleted successfully!
 
 # Pulkit code
 
@@ -40,10 +43,10 @@ ${CentralRepositoryPage_title_validation}                   Central Repository
 ${FlowRepositoryPage_title_validation}                      FLOW
 ${QaRepositoryPage_title_validation}                        QA
 
-${folder_name_value_flow}                                        AutomationTestFolder
+${folder_name_value_flow}                                   AutomationTestFolder
 ${input_FlowIntentTemplate_value}                           FlowIntentUsingAutomation
 ${expected_newfolder_success_validation_msg}                Added successfully!
-${title_name_value_flow }                                        TestIntent123
+${title_name_value_flow }                                   TestIntent123
 ${Edited_IntentTemplateTitle_Value}                         editedintent
 ${Repository_name}                                          XAVIENT
 ${enter_question_value}                                     I want to know my billing details

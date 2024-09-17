@@ -12,33 +12,93 @@ Create_New_Folder_In_QA
     checking_element_displayed_status-and_click_on_Icon    ${Central_Repository}
     Verify_title_validation
     checking_element_displayed_status-and_click_on_Icon    ${QA_Repostory_button}
-#    checking_element_displayed_status-and_click_on_Icon    ${add_new_folder}
-#    checking_textBox_displayed_status-and_input_value_in _textbox    ${enter_folder_name }    ${folder_name_value}
-#    checking_element_displayed_status-and_click_on_Icon    ${button_create}
-#    verifying_validation_message    ${Newfolder_success_validation_msg}    ${expected_newfolder_success_validation_msg}
+    checking_element_displayed_status-and_click_on_Icon    ${add_new_folder}
+    checking_textBox_displayed_status-and_input_value_in _textbox    ${enter_folder_name }    ${folder_name_value}
+    checking_element_displayed_status-and_click_on_Icon    ${button_create}
+    verifying_validation_message    ${Newfolder_success_validation_msg}    ${expected_newfolder_success_validation_msg}
+#     Assuming Get Text fetches a string with newline-separated items
+
+Rename_Folder_QA
+    Sleep    2
     # Assuming Get Text fetches a string with newline-separated items
-#    Sleep    2
-#    # Assuming Get Text fetches a string with newline-separated items
-#    ${list}    Get Text    xpath://div[@data-testid='virtuoso-item-list']
-#    Log To Console    ${list}
-#    Log To Console    ${list_type}
-#
-#    # Setting the string to compare against
-#    ${str1}    Set Variable    Test_AutomationRPA
-#
-#    # Split the list by newline since the items are newline-separated
-#    ${items}    Split String    ${list}    \n
-#    Log To Console    ${items}
-#
-#    # Iterate over each item in the split list
-#    FOR    ${item}    IN    ${items}
-#    Log To Console    Current Item: ${item}
-#    IF    "${item}" == "${str1}"
-#    Log To Console    If condition working: Found Test_AutomationRPA
-#    ELSE
-#    Log To Console    Not a match: ${item}
-#    END
-#    END
+    ${list}    Get Text    ${qa_floder_list_qa}
+    Log To Console    ${list}
+
+    # Setting the string to compare against
+    ${str1}    Set Variable    ${folder_name_value}
+    ${str2}    Set Variable    ${update_name}
+    ${rename_xpath}    Set Variable    xpath://span[contains(text(),'${str1}')]
+    ${delete_xpath}    Set Variable    xpath://span[contains(text(),'${str2}')]
+    ${meanu_rename_qa}    Set Variable
+    ...    xpath:(//span[@title='${str1}']/following::div/div[@class='icon-ellipsis'])[1]
+    ${meanu_delete_qa}    Set Variable
+    ...    xpath:(//span[@title='${str2}']/following::div/div[@class='icon-ellipsis'])[1]
+
+    # Split the list by newline since the items are newline-separated
+    ${items}    Split String    ${list}    \n
+    Log To Console    ${items}
+
+    # Rename Folder
+    # Iterate over each item in the split list
+    FOR    ${item}    IN    @{items}
+        Log To Console    Current Item: ${item}
+        IF    "${item}" == "${str1}"
+            checking_element_displayed_status-and_click_on_Icon    ${rename_xpath}
+            Sleep    2
+            Mouse Over    ${rename_xpath}
+            Sleep    1
+            Click Element    ${meanu_rename_qa}
+            Sleep    2
+            Mouse Over    ${menu_rename}
+            Sleep    2
+            checking_element_displayed_status-and_click_on_Icon    ${menu_rename}
+            Sleep    2
+            checking_textBox_displayed_status-and_input_value_in _textbox    ${rename_text_foler_qa}    ${update_name}
+            checking_element_displayed_status-and_click_on_Icon    ${update_folder_name_qa}
+            verifying_validation_message    ${Newfolder_success_validation_msg_qa}    ${expected_rename_folder_message}
+        END
+    END
+    Sleep    3
+
+Delete_Folder_QA
+    # Delete folder
+    Sleep    2
+    # Assuming Get Text fetches a string with newline-separated items
+    ${list}    Get Text    xpath://div[@data-testid='virtuoso-item-list']
+    Log To Console    ${list}
+
+    # Setting the string to compare against
+    ${str1}    Set Variable    ${folder_name_value}
+    ${str2}    Set Variable    ${update_name}
+    ${rename_xpath}    Set Variable    xpath://span[contains(text(),'${str1}')]
+    ${delete_xpath}    Set Variable    xpath://span[contains(text(),'${str2}')]
+    ${meanu_rename_qa}    Set Variable
+    ...    xpath:(//span[@title='${str1}']/following::div/div[@class='icon-ellipsis'])[1]
+    ${meanu_delete_qa}    Set Variable
+    ...    xpath:(//span[@title='${str2}']/following::div/div[@class='icon-ellipsis'])[1]
+
+    # Split the list by newline since the items are newline-separated
+    ${items}    Split String    ${list}    \n
+    Log To Console    ${items}
+
+# Iterate over each item in the split list
+    FOR    ${item}    IN    @{items}
+        Log To Console    Current Item: ${item}
+        IF    "${item}" == "${str2}"
+            checking_element_displayed_status-and_click_on_Icon    ${delete_xpath}
+            Sleep    2
+            Mouse Over    ${delete_xpath}
+            Sleep    1
+            Click Element    ${meanu_delete_qa}
+            Sleep    2
+            Mouse Over    ${menu_delete}
+            Sleep    2
+            checking_element_displayed_status-and_click_on_Icon    ${menu_delete}
+            Sleep    2
+            checking_element_displayed_status-and_click_on_Icon    ${delete_folder_qa}
+            verifying_validation_message    ${Newfolder_success_validation_msg_qa}    ${expected_delete_folder_message}
+        END
+    END
 
 Create_New_Intent_In_QA
     Wait Until Element Is Visible    ${Central_Repository}
@@ -68,7 +128,7 @@ Create_New_Intent_In_QA
     checking_element_displayed_status-and_click_on_Icon    ${button_save_qa}
     verifying_validation_message    ${success_intent_msg_qa}    ${expected_Intent_success_validation_msg}
 
-#Create_New_Intent_In_FLOW
+# Create_New_Intent_In_FLOW
 #    Wait Until Element Is Visible    ${Central_Repository}
 #    checking_element_displayed_status-and_click_on_Icon    ${Central_Repository}
 #    Verify_title_validation
@@ -129,7 +189,7 @@ Delete_The_Intent_In_QA
     ...    ${delete_intent_success_validation_msg_qa}
     ...    ${expected_delete_intent_success_message}
 
-#Edit_The_ExistingInten_In_FLOW
+# Edit_The_ExistingInten_In_FLOW
 #    Create_New_Intent_In_FLOW
 #    checking_element_displayed_status-and_click_on_Icon    ${back_button_qa}
 #    checking_element_displayed_status-and_click_on_Icon    ${select_node}
@@ -349,7 +409,7 @@ Click_On_Plus_Icon_In_New_Intent_Template
 Input_Title_Name_In_New_Intent
     [Arguments]    ${title_name_value_flow }
     Wait Until Element Is Visible    ${title_name}
-    Checking_textBox_displayed_status-and_input_value_in _textbox    ${title_name}      ${title_name_value_flow }
+    Checking_textBox_displayed_status-and_input_value_in _textbox    ${title_name}    ${title_name_value_flow }
 
 Adding_Question_Inside_The_New_Intent
     [Arguments]    ${Enter_question_value}

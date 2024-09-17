@@ -5,7 +5,7 @@ Resource    ../utility/itia_import.robot
 *** Keywords ***
 SearchBar_Functionality_And_Validate_Results
     checking_element_displayed_status-and_click_on_Icon    ${click_chatbot_moduel}
-    checking_textBox_displayed_status-and_input_value_in _textbox    ${search_bots}    Bot
+    checking_textBox_displayed_status-and_input_value_in _textbox    ${search_bots}    ${bot_name}
     checking_element_displayed_status-and_click_on_Icon    ${click_search}
     ${bot_list}    Get Text    ${get_bots_list}
     Log To Console    ${bot_list}
@@ -20,7 +20,7 @@ SearchBar_Functionality_And_Validate_Results
     FOR    ${item}    IN    @{items}
         Log To Console    Current Item: ${item}
         IF    "${item}" == "${str1}"
-            checking_element_displayed_status-and_click_on_Icon    //*[contains(text(),'Transaction Bot MQA')]
+            checking_element_displayed_status-and_click_on_Icon    ${selecting_bot}
         END
     END
     Sleep    2
