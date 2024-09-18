@@ -1,6 +1,7 @@
 *** Settings ***
 Resource    ../utility/itia_import.robot
 
+Library    DateTime
 
 *** Keywords ***
 clear_all_ookies
@@ -90,3 +91,19 @@ checking_icon_displayed_status-and_click_on_Icon
     Element Should Be Visible    ${Web-element}
     ## clicking on Icons
     Click Element  ${Web-element}
+
+Take_Page_Screenshot
+    [Arguments]    ${Image-name}
+    ${current_time}=    Get Current Date    result_format=%d-%m-%Y_%H%M%S
+    Capture Page Screenshot    filename=screenshots/${Image-name}_screenshot_${current_time}.png
+
+Take_Element_Screenshot
+    [Arguments]   ${CaptureElementLocator}      ${Image-name}
+    ${current_time}=    Get Current Date    result_format=%d-%m-%Y_%H%M%S
+    Capture Element Screenshot    ${CaptureElementLocator}    filename=screenshots/${Image-name}_screenshot_${current_time}.png
+
+Dynamic_Date
+    [Arguments]     ${current_time}
+    ${current_time}=    Get Current Date    result_format=%d-%m-%Y_%H%M%S
+
+

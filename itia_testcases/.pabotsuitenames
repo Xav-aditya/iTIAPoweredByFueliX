@@ -1,11 +1,12 @@
-datasources:19160dd87d6196ed8e5408d9cf3eada9b37722b6
+datasources:00613b6a3d6f72713c329cba1b29ecad6359c3e2
 commandlineoptions:9f8598a690c7367accf83ead504756ddd374acc9
 suitesfrom:no-suites-from-option
-file:7aab549bb66f7545845d0d21621de308748e9b10
---suite Suites.Test Verify Forgot Domain Link
---suite Suites.Test Verify Forgot Password Link
---suite Suites.Test Verify Login With Invalid Credentials Domain
---suite Suites.Test Verify Login With Invalid Credentials Email
---suite Suites.Test Verify Login With Invalid Credentials Password
---suite Suites.Test Verify Login With Invalid Email
---suite Suites.Test Verify Login with Valid Credentials
+file:a34eaa9e9ea395ae7556f9f0f44723906c98efc4
+--suite Suites.Test Verify User Adds AnswerCard Inside Intent To Qa CentralRepo And Validate Sucess Message
+--suite Suites.Test Verify User ChangeRepository FromDropDown Menu Inside Flow And Qa CentralRepo
+--suite Suites.Test Verify User Create NewTemplateFolder Rename And Delete To Flow And Qa CentralRepo And Validate Sucess Message
+--suite Suites.Test Verify User CreateNewIntent To FLOW CentralRepo And Validate Success Message
+--suite Suites.Test Verify User CreateNewIntent To Qa CentralRepo And Validate Sucess Message
+--suite Suites.Test Verify User Edit and Delete the ExistingIntent UnderAction For Flow CentralRepo And Validate Success Message
+--suite Suites.Test Verify User Edit and Delete the ExistingIntent UnderAction For QA CentralRepo And Validate Sucess Message
+--suite Suites.Test Verify User Navigates To Flow And Qa CentralRepo

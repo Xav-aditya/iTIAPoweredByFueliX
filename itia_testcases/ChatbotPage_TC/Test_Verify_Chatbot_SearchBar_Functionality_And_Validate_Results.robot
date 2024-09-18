@@ -12,6 +12,6 @@ Test Teardown       Closing_The_Browser
 *** Test Cases ***
 Verify Chatbot SearchBar Functionality And Validate Results
     [Documentation]    Verify_Chatbot_SearchBar_Functionality_And_Validate_Results
-    [Tags]    Regression Testing
+    [Tags]    priority2
     Verify_Login_With_Valid_Credentials
     SearchBar_Functionality_And_Validate_Results

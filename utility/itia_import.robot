@@ -1,5 +1,7 @@
 *** Settings ***
 Library     SeleniumLibrary    run_on_failure=Capture Page Screenshot
+Library           DateTime
+Library  DependencyLibrary
 # Library files
 Library     SeleniumLibrary
 Library     OperatingSystem
@@ -21,3 +23,5 @@ Resource    ../itia_datafiles/AnalyticsAndReportPage_Variables.robot
 Resource    ../itia_datafiles/ChatBotPage_Variables.robot
 # cutomizedFunction
 Resource    ../itia_libraries/Common_Functions.robot
+
+

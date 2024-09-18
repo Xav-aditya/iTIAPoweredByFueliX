@@ -1,0 +1,48 @@
+[ WARN ] Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=128.0.6613.138)
+Stacktrace:
+	GetHandleVerifier [0x00007FF644CF9412+29090]
+	(No symbol) [0x00007FF644C6E239]
+	(No symbol) [0x00007FF644B2B1DA]
+	(No symbol) [0x00007FF644AFFAF5]
+	(No symbol) [0x00007FF644BAE2C7]
+	(No symbol) [0x00007FF644BC5EB1]
+	(No symbol) [0x00007FF644BA6493]
+	(No symbol) [0x00007FF644B709D1]
+	(No symbol) [0x00007FF644B71B31]
+	GetHandleVerifier [0x00007FF64501871D+3302573]
+	GetHandleVerifier [0x00007FF645064243+3612627]
+	GetHandleVerifier [0x00007FF64505A417+3572135]
+	GetHandleVerifier [0x00007FF644DB5EB6+801862]
+	(No symbol) [0x00007FF644C7945F]
+	(No symbol) [0x00007FF644C74FB4]
+	(No symbol) [0x00007FF644C75140]
+	(No symbol) [0x00007FF644C6461F]
+	BaseThreadInitThunk [0x00007FFEC2277374+20]
+	RtlUserThreadStart [0x00007FFEC255CC91+33]
+
+[ WARN ] Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=128.0.6613.138)
+Stacktrace:
+	GetHandleVerifier [0x00007FF644CF9412+29090]
+	(No symbol) [0x00007FF644C6E239]
+	(No symbol) [0x00007FF644B2B1DA]
+	(No symbol) [0x00007FF644AFFAF5]
+	(No symbol) [0x00007FF644BAE2C7]
+	(No symbol) [0x00007FF644BC5EB1]
+	(No symbol) [0x00007FF644BA6493]
+	(No symbol) [0x00007FF644B709D1]
+	(No symbol) [0x00007FF644B71B31]
+	GetHandleVerifier [0x00007FF64501871D+3302573]
+	GetHandleVerifier [0x00007FF645064243+3612627]
+	GetHandleVerifier [0x00007FF64505A417+3572135]
+	GetHandleVerifier [0x00007FF644DB5EB6+801862]
+	(No symbol) [0x00007FF644C7945F]
+	(No symbol) [0x00007FF644C74FB4]
+	(No symbol) [0x00007FF644C75140]
+	(No symbol) [0x00007FF644C6461F]
+	BaseThreadInitThunk [0x00007FFEC2277374+20]
+	RtlUserThreadStart [0x00007FFEC255CC91+33]
+

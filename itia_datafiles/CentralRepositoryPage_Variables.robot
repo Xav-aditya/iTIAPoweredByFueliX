@@ -1,3 +1,6 @@
+*** Settings ***
+Resource        ../itia_libraries/Common_Functions.robot
+
 *** Variables ***
 ${folder_name_value}                                        Test_AutomationRPA
 ${expected_newfolder_success_validation_msg}                Added successfully!
@@ -48,7 +51,7 @@ ${input_FlowIntentTemplate_value}                           FlowIntentUsingAutom
 ${expected_newfolder_success_validation_msg}                Added successfully!
 ${title_name_value_flow }                                   TestIntent123
 ${Edited_IntentTemplateTitle_Value}                         editedintent
-${Repository_name}                                          XAVIENT
+${Repository_name}                                          FLOW
 ${enter_question_value}                                     I want to know my billing details
 ${enter_Edited_question}                                    Give me my billing details
 ${enter_answer_value}                                       Thanks for asking about your billing details.Your billing account no is 1203546789
@@ -58,3 +61,4 @@ ${Flow_Updated_IntentTemplate_success_validation_msg}       Template updated suc
 ${Flow_Updated_IntentNode_success_validation_msg}           Template Updated Successfully.
 ${Flow_Deleted_IntentNode_success_validation_msg}           Intent deleted successfully
 ${Flow_Deleted_IntentTemplate_success_validation_msg}       1 template(s) deleted successfully
+

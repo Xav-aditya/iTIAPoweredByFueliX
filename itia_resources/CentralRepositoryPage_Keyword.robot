@@ -5,10 +5,10 @@ Library     Collections
 Library     ../itia_libraries/CustomLibrary.py
 Library     String
 
-
 *** Keywords ***
 Create_New_Folder_In_QA
     Wait Until Element Is Visible    ${Central_Repository}
+    Sleep    2
     checking_element_displayed_status-and_click_on_Icon    ${Central_Repository}
     Verify_title_validation
     checking_element_displayed_status-and_click_on_Icon    ${QA_Repostory_button}
@@ -44,7 +44,10 @@ Rename_Folder_QA
         Log To Console    Current Item: ${item}
         IF    "${item}" == "${str1}"
             checking_element_displayed_status-and_click_on_Icon    ${rename_xpath}
-            Sleep    2
+
+        END
+    END
+    Sleep    2
             Mouse Over    ${rename_xpath}
             Sleep    1
             Click Element    ${meanu_rename_qa}
@@ -56,15 +59,13 @@ Rename_Folder_QA
             checking_textBox_displayed_status-and_input_value_in _textbox    ${rename_text_foler_qa}    ${update_name}
             checking_element_displayed_status-and_click_on_Icon    ${update_folder_name_qa}
             verifying_validation_message    ${Newfolder_success_validation_msg_qa}    ${expected_rename_folder_message}
-        END
-    END
     Sleep    3
 
 Delete_Folder_QA
     # Delete folder
     Sleep    2
     # Assuming Get Text fetches a string with newline-separated items
-    ${list}    Get Text    xpath://div[@data-testid='virtuoso-item-list']
+    ${list}    Get Text    ${qa_floder_list_qa}
     Log To Console    ${list}
 
     # Setting the string to compare against
@@ -101,27 +102,19 @@ Delete_Folder_QA
     END
 
 Create_New_Intent_In_QA
-    Wait Until Element Is Visible    ${Central_Repository}
-    checking_element_displayed_status-and_click_on_Icon    ${Central_Repository}
-    Verify_title_validation
-    checking_element_displayed_status-and_click_on_Icon    ${QA_Repostory_button}
-    checking_element_displayed_status-and_click_on_Icon    ${add_new_folder_qa}
-    checking_textBox_displayed_status-and_input_value_in _textbox    ${enter_folder_name_qa }    ${folder_name_value}
-    checking_element_displayed_status-and_click_on_Icon    ${button_create_qa}
-    verifying_validation_message
-    ...    ${Newfolder_success_validation_msg_qa}
-    ...    ${expected_newfolder_success_validation_msg}
+    Create_New_Folder_In_QA
     checking_element_displayed_status-and_click_on_Icon    ${add_intent_qa}
     checking_element_displayed_status-and_click_on_Icon    ${new_intent_qa}
     checking_textBox_displayed_status-and_input_value_in _textbox    ${title_name_qa}    ${qa_title_name_value }
-    checking_textBox_displayed_status-and_input_value_in _textbox    ${enter_question_qa}    ${enter_question_value1}
-    checking_textBox_displayed_status-and_input_value_in _textbox    ${enter_question_qa}    ${enter_question_value2}
-    Wait Until Element Is Visible    ${enable_checkbox_qa}
-    Mouse Over    ${enable_checkbox_qa}
-    checking_element_displayed_status-and_click_on_Icon    ${enable_checkbox_qa}
+    ${current_time}=    Get Current Date    result_format=%d-%m-%Y_%H%M%S
+    checking_textBox_displayed_status-and_input_value_in _textbox    ${enter_question_qa}    ${enter_question_value1}_${current_time}
+    checking_textBox_displayed_status-and_input_value_in _textbox    ${enter_question_qa}    ${enter_question_value2}_${current_time}
+#    Wait Until Element Is Visible    ${enable_checkbox_qa}      5
+#    Mouse Over    ${enable_checkbox_qa}
+#    checking_element_displayed_status-and_click_on_Icon    ${enable_checkbox_qa}
     checking_element_displayed_status-and_click_on_Icon    ${add_cards_qa}
     checking_element_displayed_status-and_click_on_Icon    ${answer_card_qa}
-    checking_textBox_displayed_status-and_input_value_in _textbox    ${enter_answer_qa}    ${enter_answer_value}
+    checking_textBox_displayed_status-and_input_value_in _textbox    ${enter_answer_qa}    ${enter_answer_value}_${current_time}
     Mouse Over    ${goto_feedback_qa}
     checking_element_displayed_status-and_click_on_Icon    ${goto_feedback_qa}
     checking_element_displayed_status-and_click_on_Icon    ${feedback_toggle_qa}
@@ -165,9 +158,10 @@ Edit_The_ExistingInten_In_QA
     Clear Element Text    ${title_name_qa}
     checking_textBox_displayed_status-and_input_value_in _textbox    ${title_name_qa}    ${edit_title_name_qa}
     checking_element_displayed_status-and_click_on_Icon    ${add_question_icon_qa}
+    ${current_time}=    Get Current Date    result_format=%d-%m-%Y_%H%M%S
     checking_textBox_displayed_status-and_input_value_in _textbox
     ...    ${enter_secound_question_qa}
-    ...    ${edit_question_qa}
+    ...    ${edit_question_qa}_${current_time}
     checking_element_displayed_status-and_click_on_Icon    ${button_save_qa}
     verifying_validation_message    ${success_intent_msg_qa}    ${expected_edit_qa_intent_message}
 
@@ -205,6 +199,7 @@ Delete_The_Intent_In_QA
 
 AnswerCard_Inside_Intent_To_Qa
     Wait Until Element Is Visible    ${Central_Repository}
+    Sleep    2
     checking_element_displayed_status-and_click_on_Icon    ${Central_Repository}
     Verify_title_validation
     checking_element_displayed_status-and_click_on_Icon    ${QA_Repostory_button}
@@ -217,15 +212,16 @@ AnswerCard_Inside_Intent_To_Qa
     checking_element_displayed_status-and_click_on_Icon    ${add_intent_qa}
     checking_element_displayed_status-and_click_on_Icon    ${new_intent_qa}
     checking_textBox_displayed_status-and_input_value_in _textbox    ${title_name_qa}    ${qa_title_name_value }
-    checking_textBox_displayed_status-and_input_value_in _textbox    ${enter_question_qa}    ${enter_question_value1}
-    Wait Until Element Is Visible    ${enable_checkbox_qa}
+    ${current_time}=    Get Current Date    result_format=%d-%m-%Y_%H%M%S
+    checking_textBox_displayed_status-and_input_value_in _textbox    ${enter_question_qa}    ${enter_question_value1}_${current_time}
+    Wait Until Element Is Visible    ${enable_checkbox_qa}  6
     Mouse Over    ${enable_checkbox_qa}
     checking_element_displayed_status-and_click_on_Icon    ${enable_checkbox_qa}
     checking_element_displayed_status-and_click_on_Icon    ${add_cards_qa}
 
 # Text Card
     checking_element_displayed_status-and_click_on_Icon    ${answer_card_qa}
-    checking_textBox_displayed_status-and_input_value_in _textbox    ${enter_answer_qa}    ${enter_answer_value}
+    checking_textBox_displayed_status-and_input_value_in _textbox    ${enter_answer_qa}    ${enter_answer_value}_${current_time}
 
 # URL Card
     checking_element_displayed_status-and_click_on_Icon    ${url_card_qa}
@@ -414,7 +410,8 @@ Input_Title_Name_In_New_Intent
 Adding_Question_Inside_The_New_Intent
     [Arguments]    ${Enter_question_value}
     Wait Until Page Contains Element    ${enter_question}
-    Checking_textBox_displayed_status-and_input_value_in _textbox    ${enter_question}    ${Enter_question_value}
+    ${current_time}=    Get Current Date    result_format=%d-%m-%Y_%H%M%S
+    Checking_textBox_displayed_status-and_input_value_in _textbox    ${enter_question}    ${Enter_question_value}_ ${current_time}
 
 Click_AutoSuggestion_Checkbox
     Wait Until Page Contains Element    ${enable_checkbox}
@@ -478,7 +475,8 @@ Creating_New_FlowType_Intent_Template_By_Adding_AnswerCards
     # Adding_Question_Inside_The_New_Intent
 
     Wait Until Page Contains Element    ${enter_question}
-    Checking_textBox_displayed_status-and_input_value_in _textbox    ${enter_question}    ${Enter_question_value}
+    ${current_time}=    Get Current Date    result_format=%d-%m-%Y_%H%M%S
+    Checking_textBox_displayed_status-and_input_value_in _textbox    ${enter_question}    ${Enter_question_value}_${current_time}
     # Click_AutoSuggestion_Checkbox
     Wait Until Page Contains Element    ${enable_checkbox}
     Checking_Icon_displayed_status-and_click_on_Icon    ${enable_checkbox}
@@ -491,7 +489,7 @@ Creating_New_FlowType_Intent_Template_By_Adding_AnswerCards
     # Input_Answer_Value_Inside_Text_Answer_Card
 
     Wait Until Page Contains Element    ${enter_answer}
-    Checking_textBox_displayed_status-and_input_value_in _textbox    ${enter_answer}    ${Enter_answer_value}
+    Checking_textBox_displayed_status-and_input_value_in _textbox    ${enter_answer}    ${Enter_answer_value}_${current_time}
     # Scroll_DownTo_Feedback_Section_In_Intentpage
     Scroll Element Into View    ${goto_feedback}
     # Click_On_Feedback_Toggle_In_Intentpage
