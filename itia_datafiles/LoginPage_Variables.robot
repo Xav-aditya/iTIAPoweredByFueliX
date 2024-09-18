@@ -1,8 +1,8 @@
 *** Variables ***
 ${browser}                                      chrome
 ${site-url}                                     https://mqa2.xavlab.xyz/
-${password}                                     *Pavan@7351
-${username}                                     puchha.pavan@telusinternational.com
+${password}                                     Password@1
+${username}                                     bisma.shah@telusinternational.com
 ${domain_name}                                  xd
 
 # Invalid username and empty username

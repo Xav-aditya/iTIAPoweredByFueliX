@@ -4,68 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5ed14f5-fe9a-4acc-8b20-30b421fdbd7d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/itia_testcases/ChatbotPage_TC/Test_Verify_Chatbot_Add_New_Folder_Functionality.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itia_testcases/ChatbotPage_TC/Test_Verify_Chatbot_Dropdown_Functionality.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itia_testcases/ChatbotPage_TC/Test_Verify_Chatbot_Import_Icon_Functionality.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itia_testcases/ChatbotPage_TC/Test_Verify_Chatbot_Selection_Functionality_And_Validate_Results.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itia_testcases/ChatbotPage_TC/Test_Verify_Chatbot_TrainBot_Button.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itia_testcases/Results/pabot_results/0/Faild_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itia_testcases/Results/pabot_results/0/selenium-screenshot-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/Results/log.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Results/output.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Results/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_datafiles/CentralRepositoryPage_Variables.robot" beforeDir="false" afterPath="$PROJECT_DIR$/itia_datafiles/CentralRepositoryPage_Variables.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_datafiles/ChatBotPage_Variables.robot" beforeDir="false" afterPath="$PROJECT_DIR$/itia_datafiles/ChatBotPage_Variables.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_libraries/Common_Functions.robot" beforeDir="false" afterPath="$PROJECT_DIR$/itia_libraries/Common_Functions.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_pageobject/ChatBotPage_Locators.robot" beforeDir="false" afterPath="$PROJECT_DIR$/itia_pageobject/ChatBotPage_Locators.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_resources/BaseClass_Keyword.robot" beforeDir="false" afterPath="$PROJECT_DIR$/itia_resources/BaseClass_Keyword.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_resources/CentralRepositoryPage_Keyword.robot" beforeDir="false" afterPath="$PROJECT_DIR$/itia_resources/CentralRepositoryPage_Keyword.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_resources/ChatBotPage_Keyword.robot" beforeDir="false" afterPath="$PROJECT_DIR$/itia_resources/ChatBotPage_Keyword.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_resources/Common_Keyword.robot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_testcases/.pabotsuitenames" beforeDir="false" afterPath="$PROJECT_DIR$/itia_testcases/.pabotsuitenames" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_testcases/Central_RepositoryPage_TC/Test_Verify_User_CreateNewIntent_To_Qa_CentralRepo_And_Validate_Success_Message.robot" beforeDir="false" afterPath="$PROJECT_DIR$/itia_testcases/Central_RepositoryPage_TC/Test_Verify_User_CreateNewIntent_To_FLOW_CentralRepo_And_Validate_Success_Message.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_testcases/Central_RepositoryPage_TC/Test_Verify_User_Navigates_To_Flow_And_Qa_CentralRepo.robot" beforeDir="false" afterPath="$PROJECT_DIR$/itia_testcases/Central_RepositoryPage_TC/Test_Verify_User_Navigates_To_Flow_And_Qa_CentralRepo.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_testcases/ChatbotPage_TC/Test_Verify_Chatbot_SearchBar_Functionality_And_Validate_Results.robot" beforeDir="false" afterPath="$PROJECT_DIR$/itia_testcases/ChatbotPage_TC/Test_Verify_Chatbot_SearchBar_Functionality_And_Validate_Results.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_testcases/Results/0-Faild_screenshot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_testcases/Results/0-selenium-screenshot-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_testcases/Results/1-Faild_screenshot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_testcases/Results/1-selenium-screenshot-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_testcases/Results/2-Faild_screenshot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_testcases/Results/2-selenium-screenshot-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_testcases/Results/3-Faild_screenshot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_testcases/Results/3-selenium-screenshot-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_testcases/Results/6-AnalyticsandReportpagescreenshot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_testcases/Results/6-AnalyticsandReporttextscreenshot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_testcases/Results/log.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_testcases/Results/output.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_testcases/Results/pabot_results/0/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itia_testcases/Results/pabot_results/0/output.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_testcases/Results/pabot_results/0/robot_stdout.out" beforeDir="false" afterPath="$PROJECT_DIR$/itia_testcases/Results/pabot_results/0/robot_stdout.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_testcases/Results/pabot_results/1/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itia_testcases/Results/pabot_results/1/output.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_testcases/Results/pabot_results/1/robot_stderr.out" beforeDir="false" afterPath="$PROJECT_DIR$/itia_testcases/Results/pabot_results/1/robot_stderr.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_testcases/Results/pabot_results/1/robot_stdout.out" beforeDir="false" afterPath="$PROJECT_DIR$/itia_testcases/Results/pabot_results/1/robot_stdout.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_testcases/Results/pabot_results/2/output.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_testcases/Results/pabot_results/2/robot_stderr.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_testcases/Results/pabot_results/2/robot_stdout.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_testcases/Results/pabot_results/3/output.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_testcases/Results/pabot_results/3/robot_stderr.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_testcases/Results/pabot_results/3/robot_stdout.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_testcases/Results/pabot_results/4/output.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_testcases/Results/pabot_results/4/robot_stderr.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_testcases/Results/pabot_results/4/robot_stdout.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_testcases/Results/pabot_results/5/output.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_testcases/Results/pabot_results/5/robot_stderr.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_testcases/Results/pabot_results/5/robot_stdout.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_testcases/Results/pabot_results/6/AnalyticsandReportpagescreenshot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_testcases/Results/pabot_results/6/AnalyticsandReporttextscreenshot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_testcases/Results/pabot_results/6/output.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_testcases/Results/pabot_results/6/robot_stderr.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_testcases/Results/pabot_results/6/robot_stdout.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itia_testcases/Results/report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run.bat" beforeDir="false" afterPath="$PROJECT_DIR$/run.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utility/itia_import.robot" beforeDir="false" afterPath="$PROJECT_DIR$/utility/itia_import.robot" afterDir="false" />
-    </list>
+    <list default="true" id="d5ed14f5-fe9a-4acc-8b20-30b421fdbd7d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,41 +13,28 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Robot Test File" />
       </list>
     </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2lY7MNpd97vF3yGSGhpDLELHWBs" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Batch.run.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Automation__QA&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/puchha.pavan/PycharmProjects/Telus_iTIA_Powered_by_Fuel_iX/iTIA_Powered_by_Fuel_iX&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Batch.run.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/puchha.pavan/PycharmProjects/Telus_iTIA_Powered_by_Fuel_iX/iTIA_Powered_by_Fuel_iX",
+    "settings.editor.selected.configurable": "settings.sync"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\puchha.pavan\PycharmProjects\Telus_iTIA_Powered_by_Fuel_iX\iTIA_Powered_by_Fuel_iX\itia_datafiles" />
-      <recent name="C:\Users\puchha.pavan\PycharmProjects\Telus_iTIA_Powered_by_Fuel_iX\iTIA_Powered_by_Fuel_iX\Files" />
       <recent name="C:\Users\puchha.pavan\PycharmProjects\Telus_iTIA_Powered_by_Fuel_iX\iTIA_Powered_by_Fuel_iX" />
       <recent name="C:\Users\puchha.pavan\PycharmProjects\Telus_iTIA_Powered_by_Fuel_iX\iTIA_Powered_by_Fuel_iX\itia_testcases\login" />
     </key>
@@ -117,7 +43,7 @@
     <configuration name="run" type="BatchConfigurationType" factoryName="Batch" temporary="true">
       <module name="iTIA_Powered_by_Fuel_iX" />
       <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\puchha.pavan\PycharmProjects\Telus_iTIA_Powered_by_Fuel_iX\iTIA_Powered_by_Fuel_iX" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SCRIPT_NAME" value="run.bat" />
       <option name="PARAMETERS" value="" />
@@ -145,50 +71,6 @@
       <option name="presentableId" value="Default" />
       <updated>1725345106966</updated>
     </task>
-    <task id="LOCAL-00001" summary="refactor done">
-      <option name="closed" value="true" />
-      <created>1726471517241</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1726471517241</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Removed all unwanted files">
-      <option name="closed" value="true" />
-      <created>1726491100747</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1726491100747</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="refactor done" />
-    <MESSAGE value="Removed all unwanted files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed all unwanted files" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="robot-line">
-          <url>file://$PROJECT_DIR$/itia_resources/LoginPage_Keyword.robot</url>
-          <line>340</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="robot-line">
-          <url>file://$PROJECT_DIR$/itia_pageobject/ChatBotPage_Locators.robot</url>
-          <line>12</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="robot-line">
-          <url>file://$PROJECT_DIR$/itia_testcases/ChatbotPage_TC/Test_Verify_Chatbot_Add_New_Folder_Functionality.robot</url>
-          <line>5</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

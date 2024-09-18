@@ -1,7 +1,6 @@
 *** Settings ***
 Resource    ../utility/itia_import.robot
 
-Library    DateTime
 
 *** Keywords ***
 clear_all_ookies
@@ -29,7 +28,6 @@ checking_textBox_displayed_status-and_input_value_in _textbox
     Element Should Be Visible    ${Webelement}
     Element Should Be Enabled    ${Webelement}
     # Inputing value in    textbox-Field
-    Clear Element Text  ${Webelement}
     Input Text    ${Webelement}    ${input_text_value}
 
 checking_button_displayed_status-and_click_on_button
@@ -39,7 +37,7 @@ checking_button_displayed_status-and_click_on_button
     # clicking on button
     Click Button    ${Webelement}
 
-checking_element_displayed_status-and_click_on_Icon
+checking_icon_displayed_status-and_click_on_Icon
     [Arguments]    ${Web-element}
     # checking visibility    Status and enabling status for UI-Icons
     Element Should Be Visible    ${Web-element}
@@ -55,10 +53,10 @@ checking_link_displayed_status-and_click_on_Link
 
 verifying_validation_message
     [Arguments]    ${Webelement}    ${Expected_message}
-    Wait Until Element Is Visible    ${Webelement}
     ${toast_msg}    Get Text    ${Webelement}
     Log To Console    ${toast_msg}
     Should Be Equal    ${toast_msg}     ${Expected_message}
+
 
 Verify_Login_With_Valid_Credentials
     [Documentation]     Testing Login With Valid Credentials
@@ -70,28 +68,6 @@ Verify_Login_With_Valid_Credentials
     input_password_onloginpage    ${password}
     click_login_button_onloginpage
 
-Verify_title_validation
-    ${get_url}    Get Location
-    Log To Console    ${get_url}
-    Should Be Equal    ${get_url}   ${expected_CR_url}
-
-Verify_Click_Element
-        [Arguments]     ${WebElement}
-
-        Wait Until Element Is Visible    ${WebElement}
-        Click Element    ${WebElement}
-Verify_mouse_hover_action
-        [Arguments]     ${WebElement}
-        Wait Until Element Is Visible    ${WebElement}
-        Mouse Over    ${WebElement}
-
-checking_icon_displayed_status-and_click_on_Icon
-    [Arguments]    ${Web-element}
-    # checking visibility    Status and enabling status for UI-Icons
-    Element Should Be Visible    ${Web-element}
-    ## clicking on Icons
-    Click Element  ${Web-element}
-
 Take_Page_Screenshot
     [Arguments]    ${Image-name}
     ${current_time}=    Get Current Date    result_format=%d-%m-%Y_%H%M%S
@@ -101,9 +77,3 @@ Take_Element_Screenshot
     [Arguments]   ${CaptureElementLocator}      ${Image-name}
     ${current_time}=    Get Current Date    result_format=%d-%m-%Y_%H%M%S
     Capture Element Screenshot    ${CaptureElementLocator}    filename=screenshots/${Image-name}_screenshot_${current_time}.png
-
-Dynamic_Date
-    [Arguments]     ${current_time}
-    ${current_time}=    Get Current Date    result_format=%d-%m-%Y_%H%M%S
-
-
