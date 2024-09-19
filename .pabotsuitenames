@@ -1,0 +1,10 @@
+datasources:07c8224b8f753f5e6cec3103ce15fd5ff19f8feb
+commandlineoptions:e795e9e11c03533e5fca6380349a3801e0f4875a
+suitesfrom:no-suites-from-option
+file:7d14b04a0d54c687a341781a845fcbd5e4223889
+--suite Itia Testcases.ChatbotPage TC.Test Verify Chatbot Add New Folder Functionality
+--suite Itia Testcases.ChatbotPage TC.Test Verify Chatbot Dropdown Functionality
+--suite Itia Testcases.ChatbotPage TC.Test Verify Chatbot Import Icon Functionality
+--suite Itia Testcases.ChatbotPage TC.Test Verify Chatbot SearchBar Functionality And Validate Results
+--suite Itia Testcases.ChatbotPage TC.Test Verify Chatbot Selection Functionality And Validate Results
+--suite Itia Testcases.ChatbotPage TC.Test Verify Chatbot TrainBot Button

@@ -1,0 +1,11 @@
+datasources:ead5618cb0cd3c6da423a691c94f2ac4606cd6b1
+commandlineoptions:9f8598a690c7367accf83ead504756ddd374acc9
+suitesfrom:no-suites-from-option
+file:aa9ab206ad603305e4898f28e54f027b05ca5a48
+--suite Suites.Test Verify Add Profile Picture
+--suite Suites.Test Verify Disable Allow Notification Tone
+--suite Suites.Test Verify Edit Display Name
+--suite Suites.Test Verify Edit Preferred Bot
+--suite Suites.Test Verify Edit Preferred Language
+--suite Suites.Test Verify Last Login Details
+--suite Suites.Test Verify Remove Profile Picture
