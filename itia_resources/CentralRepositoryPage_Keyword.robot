@@ -17,6 +17,7 @@ Create_New_Folder_In_QA
     checking_element_displayed_status-and_click_on_Icon    ${button_create}
     verifying_validation_message    ${Newfolder_success_validation_msg}    ${expected_newfolder_success_validation_msg}
 #     Assuming Get Text fetches a string with newline-separated items
+#working fine now
 
 Rename_Folder_QA
     Sleep    1
