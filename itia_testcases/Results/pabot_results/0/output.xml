@@ -1,388 +1,388 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.0.1 (Python 3.12.3 on win32)" generated="2024-09-19T11:49:31.937571" rpa="false" schemaversion="5">
+<robot generator="Robot 7.0.1 (Python 3.12.3 on win32)" generated="2024-09-19T13:34:49.641308" rpa="false" schemaversion="5">
 <suite id="s1" name="Suites">
 <suite id="s1-s1" name="Test Verify Add Profile Picture" source="C:\Users\puchha.pavan\PycharmProjects\Telus_iTIA_Powered_by_Fuel_iX\iTIA_Powered_by_Fuel_iX\itia_testcases\UserProfile_TC\Test_Verify_Add_Profile_Picture.robot">
 <test id="s1-s1-t1" name="Test_Verify_Add_Profile_Picture" line="9">
 <kw name="Launching_The_Browser" owner="BaseClass_Keyword" type="SETUP">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2024-09-19T11:49:32.303113" level="INFO">Opening browser 'chrome' to base url 'https://mqa2.xavlab.xyz/'.</msg>
+<msg time="2024-09-19T13:34:50.047809" level="INFO">Opening browser 'chrome' to base url 'https://mqa2.xavlab.xyz/'.</msg>
 <arg>${site-url}</arg>
 <arg>${browser}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2024-09-19T11:49:32.303113" elapsed="7.880946"/>
+<status status="PASS" start="2024-09-19T13:34:50.047809" elapsed="8.632041"/>
 </kw>
 <kw name="Maximize Browser Window" owner="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" start="2024-09-19T11:49:40.184558" elapsed="0.032772"/>
+<status status="PASS" start="2024-09-19T13:34:58.680347" elapsed="0.024487"/>
 </kw>
 <kw name="Set Selenium Implicit Wait" owner="SeleniumLibrary">
 <arg>10Seconds</arg>
 <doc>Sets the implicit wait value used by Selenium.</doc>
-<status status="PASS" start="2024-09-19T11:49:40.217829" elapsed="0.002461"/>
+<status status="PASS" start="2024-09-19T13:34:58.704834" elapsed="0.003942"/>
 </kw>
 <kw name="clear_all_ookies" owner="Common_Functions">
 <kw name="Delete All Cookies" owner="SeleniumLibrary">
 <doc>Deletes all cookies.</doc>
-<status status="PASS" start="2024-09-19T11:49:40.222220" elapsed="0.013084"/>
+<status status="PASS" start="2024-09-19T13:34:58.709785" elapsed="0.007922"/>
 </kw>
 <doc>Clear all cookies</doc>
-<status status="PASS" start="2024-09-19T11:49:40.220719" elapsed="0.014585"/>
+<status status="PASS" start="2024-09-19T13:34:58.709083" elapsed="0.008624"/>
 </kw>
 <kw name="Set Selenium Speed" owner="SeleniumLibrary">
 <arg>0.1</arg>
 <doc>Sets the delay that is waited after each Selenium command.</doc>
-<status status="PASS" start="2024-09-19T11:49:40.236027" elapsed="0.000497"/>
+<status status="PASS" start="2024-09-19T13:34:58.717707" elapsed="0.001064"/>
 </kw>
 <doc>This keyword for launching the browser</doc>
-<status status="PASS" start="2024-09-19T11:49:32.303113" elapsed="7.933411"/>
+<status status="PASS" start="2024-09-19T13:34:50.047809" elapsed="8.670962"/>
 </kw>
 <kw name="Verify_Login_With_Valid_Credentials" owner="Common_Functions">
 <kw name="Input_Username_OnLoginpage" owner="LoginPage_Keyword">
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2024-09-19T11:49:42.237481" level="INFO">Slept 2 seconds.</msg>
+<msg time="2024-09-19T13:35:00.719514" level="INFO">Slept 2 seconds.</msg>
 <arg>2</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2024-09-19T11:49:40.237020" elapsed="2.000461"/>
+<status status="PASS" start="2024-09-19T13:34:58.719270" elapsed="2.000244"/>
 </kw>
 <kw name="checking_textBox_displayed_status-and_input_value_in _textbox" owner="Common_Functions">
 <kw name="Element Should Be Visible" owner="SeleniumLibrary">
-<msg time="2024-09-19T11:49:42.464984" level="INFO">Element 'name:username' is displayed.</msg>
+<msg time="2024-09-19T13:35:00.947049" level="INFO">Element 'name:username' is displayed.</msg>
 <arg>${Webelement}</arg>
 <doc>Verifies that the element identified by ``locator`` is visible.</doc>
-<status status="PASS" start="2024-09-19T11:49:42.237481" elapsed="0.227503"/>
+<status status="PASS" start="2024-09-19T13:35:00.719514" elapsed="0.227535"/>
 </kw>
 <kw name="Element Should Be Enabled" owner="SeleniumLibrary">
 <arg>${Webelement}</arg>
 <doc>Verifies that element identified by ``locator`` is enabled.</doc>
-<status status="PASS" start="2024-09-19T11:49:42.465481" elapsed="0.326528"/>
+<status status="PASS" start="2024-09-19T13:35:00.947049" elapsed="0.345524"/>
 </kw>
 <kw name="Clear Element Text" owner="SeleniumLibrary">
 <arg>${Webelement}</arg>
 <doc>Clears the value of the text-input-element identified by ``locator``.</doc>
-<status status="PASS" start="2024-09-19T11:49:42.792009" elapsed="0.245637"/>
+<status status="PASS" start="2024-09-19T13:35:01.292573" elapsed="0.248471"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2024-09-19T11:49:43.038142" level="INFO">Typing text 'puchha.pavan@telusinternational.com' into text field 'name:username'.</msg>
+<msg time="2024-09-19T13:35:01.541044" level="INFO">Typing text 'puchha.pavan@telusinternational.com' into text field 'name:username'.</msg>
 <arg>${Webelement}</arg>
 <arg>${input_text_value}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2024-09-19T11:49:43.038142" elapsed="0.447068"/>
+<status status="PASS" start="2024-09-19T13:35:01.541044" elapsed="0.419154"/>
 </kw>
 <arg>${txt_loginpageusername}</arg>
 <arg>${username}</arg>
-<status status="PASS" start="2024-09-19T11:49:42.237481" elapsed="1.247729"/>
+<status status="PASS" start="2024-09-19T13:35:00.719514" elapsed="1.240967"/>
 </kw>
 <arg>${username}</arg>
-<status status="PASS" start="2024-09-19T11:49:40.237020" elapsed="3.248190"/>
+<status status="PASS" start="2024-09-19T13:34:58.719270" elapsed="3.241211"/>
 </kw>
 <kw name="Click_Login_Button_OnLoginpage" owner="LoginPage_Keyword">
 <kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
 <arg>${txt_clickloginbutton}</arg>
 <doc>Waits until the element ``locator`` appears on the current page.</doc>
-<status status="PASS" start="2024-09-19T11:49:43.485711" elapsed="0.119493"/>
+<status status="PASS" start="2024-09-19T13:35:01.960923" elapsed="0.112986"/>
 </kw>
 <kw name="checking_button_displayed_status-and_click_on_button" owner="Common_Functions">
 <kw name="Element Should Be Visible" owner="SeleniumLibrary">
-<msg time="2024-09-19T11:49:43.824756" level="INFO">Element 'xpath://*[text()='Login']' is displayed.</msg>
+<msg time="2024-09-19T13:35:02.306917" level="INFO">Element 'xpath://*[text()='Login']' is displayed.</msg>
 <arg>${Webelement}</arg>
 <doc>Verifies that the element identified by ``locator`` is visible.</doc>
-<status status="PASS" start="2024-09-19T11:49:43.605204" elapsed="0.220079"/>
+<status status="PASS" start="2024-09-19T13:35:02.073909" elapsed="0.233008"/>
 </kw>
 <kw name="Click Button" owner="SeleniumLibrary">
-<msg time="2024-09-19T11:49:43.826917" level="INFO">Clicking button 'xpath://*[text()='Login']'.</msg>
+<msg time="2024-09-19T13:35:02.306917" level="INFO">Clicking button 'xpath://*[text()='Login']'.</msg>
 <arg>${Webelement}</arg>
 <doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2024-09-19T11:49:43.826417" elapsed="0.794041"/>
+<status status="PASS" start="2024-09-19T13:35:02.306917" elapsed="0.814957"/>
 </kw>
 <arg>${txt_clickloginbutton}</arg>
-<status status="PASS" start="2024-09-19T11:49:43.605204" elapsed="1.015254"/>
+<status status="PASS" start="2024-09-19T13:35:02.073909" elapsed="1.047965"/>
 </kw>
-<status status="PASS" start="2024-09-19T11:49:43.485711" elapsed="1.134747"/>
+<status status="PASS" start="2024-09-19T13:35:01.960746" elapsed="1.161128"/>
 </kw>
 <kw name="Input_Domain-Name_OnLoginpage" owner="LoginPage_Keyword">
 <kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
 <arg>${txt_loginpagedomain}</arg>
 <doc>Waits until the element ``locator`` appears on the current page.</doc>
-<status status="PASS" start="2024-09-19T11:49:44.620458" elapsed="0.514706"/>
+<status status="PASS" start="2024-09-19T13:35:03.121874" elapsed="0.529739"/>
 </kw>
 <kw name="checking_textBox_displayed_status-and_input_value_in _textbox" owner="Common_Functions">
 <kw name="Element Should Be Visible" owner="SeleniumLibrary">
-<msg time="2024-09-19T11:49:45.357479" level="INFO">Element 'xpath://*[@placeholder='Enter domain']' is displayed.</msg>
+<msg time="2024-09-19T13:35:03.877575" level="INFO">Element 'xpath://*[@placeholder='Enter domain']' is displayed.</msg>
 <arg>${Webelement}</arg>
 <doc>Verifies that the element identified by ``locator`` is visible.</doc>
-<status status="PASS" start="2024-09-19T11:49:45.135164" elapsed="0.222315"/>
+<status status="PASS" start="2024-09-19T13:35:03.651613" elapsed="0.225962"/>
 </kw>
 <kw name="Element Should Be Enabled" owner="SeleniumLibrary">
 <arg>${Webelement}</arg>
 <doc>Verifies that element identified by ``locator`` is enabled.</doc>
-<status status="PASS" start="2024-09-19T11:49:45.357479" elapsed="0.327778"/>
+<status status="PASS" start="2024-09-19T13:35:03.877575" elapsed="0.328003"/>
 </kw>
 <kw name="Clear Element Text" owner="SeleniumLibrary">
 <arg>${Webelement}</arg>
 <doc>Clears the value of the text-input-element identified by ``locator``.</doc>
-<status status="PASS" start="2024-09-19T11:49:45.685752" elapsed="0.235529"/>
+<status status="PASS" start="2024-09-19T13:35:04.205578" elapsed="0.233308"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2024-09-19T11:49:45.921281" level="INFO">Typing text 'xd' into text field 'xpath://*[@placeholder='Enter domain']'.</msg>
+<msg time="2024-09-19T13:35:04.440399" level="INFO">Typing text 'xd' into text field 'xpath://*[@placeholder='Enter domain']'.</msg>
 <arg>${Webelement}</arg>
 <arg>${input_text_value}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2024-09-19T11:49:45.921281" elapsed="0.453591"/>
+<status status="PASS" start="2024-09-19T13:35:04.438886" elapsed="0.371663"/>
 </kw>
 <arg>${txt_loginpagedomain}</arg>
 <arg>${domain_name}</arg>
-<status status="PASS" start="2024-09-19T11:49:45.135164" elapsed="1.240156"/>
+<status status="PASS" start="2024-09-19T13:35:03.651613" elapsed="1.158936"/>
 </kw>
 <arg>${domain_name}</arg>
-<status status="PASS" start="2024-09-19T11:49:44.620458" elapsed="1.754862"/>
+<status status="PASS" start="2024-09-19T13:35:03.121874" elapsed="1.688675"/>
 </kw>
 <kw name="Click_Login_Button_OnLoginpage" owner="LoginPage_Keyword">
 <kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
 <arg>${txt_clickloginbutton}</arg>
 <doc>Waits until the element ``locator`` appears on the current page.</doc>
-<status status="PASS" start="2024-09-19T11:49:46.376812" elapsed="0.121023"/>
+<status status="PASS" start="2024-09-19T13:35:04.811426" elapsed="0.106846"/>
 </kw>
 <kw name="checking_button_displayed_status-and_click_on_button" owner="Common_Functions">
 <kw name="Element Should Be Visible" owner="SeleniumLibrary">
-<msg time="2024-09-19T11:49:46.735179" level="INFO">Element 'xpath://*[text()='Login']' is displayed.</msg>
+<msg time="2024-09-19T13:35:05.135673" level="INFO">Element 'xpath://*[text()='Login']' is displayed.</msg>
 <arg>${Webelement}</arg>
 <doc>Verifies that the element identified by ``locator`` is visible.</doc>
-<status status="PASS" start="2024-09-19T11:49:46.499527" elapsed="0.236144"/>
+<status status="PASS" start="2024-09-19T13:35:04.919090" elapsed="0.216583"/>
 </kw>
 <kw name="Click Button" owner="SeleniumLibrary">
-<msg time="2024-09-19T11:49:46.736951" level="INFO">Clicking button 'xpath://*[text()='Login']'.</msg>
+<msg time="2024-09-19T13:35:05.136174" level="INFO">Clicking button 'xpath://*[text()='Login']'.</msg>
 <arg>${Webelement}</arg>
 <doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2024-09-19T11:49:46.736116" elapsed="0.813868"/>
+<status status="PASS" start="2024-09-19T13:35:05.135673" elapsed="0.778919"/>
 </kw>
 <arg>${txt_clickloginbutton}</arg>
-<status status="PASS" start="2024-09-19T11:49:46.498335" elapsed="1.052146"/>
+<status status="PASS" start="2024-09-19T13:35:04.918272" elapsed="0.996320"/>
 </kw>
-<status status="PASS" start="2024-09-19T11:49:46.375815" elapsed="1.174987"/>
+<status status="PASS" start="2024-09-19T13:35:04.810549" elapsed="1.104043"/>
 </kw>
 <kw name="Input_Password_OnLoginpage" owner="LoginPage_Keyword">
 <kw name="checking_textBox_displayed_status-and_input_value_in _textbox" owner="Common_Functions">
 <kw name="Element Should Be Visible" owner="SeleniumLibrary">
-<msg time="2024-09-19T11:49:47.806457" level="INFO">Element 'xpath://*[@placeholder='Enter password']' is displayed.</msg>
+<msg time="2024-09-19T13:35:06.140248" level="INFO">Element 'xpath://*[@placeholder='Enter password']' is displayed.</msg>
 <arg>${Webelement}</arg>
 <doc>Verifies that the element identified by ``locator`` is visible.</doc>
-<status status="PASS" start="2024-09-19T11:49:47.553119" elapsed="0.253830"/>
+<status status="PASS" start="2024-09-19T13:35:05.914592" elapsed="0.225656"/>
 </kw>
 <kw name="Element Should Be Enabled" owner="SeleniumLibrary">
 <arg>${Webelement}</arg>
 <doc>Verifies that element identified by ``locator`` is enabled.</doc>
-<status status="PASS" start="2024-09-19T11:49:47.807445" elapsed="0.349047"/>
+<status status="PASS" start="2024-09-19T13:35:06.140248" elapsed="0.335586"/>
 </kw>
 <kw name="Clear Element Text" owner="SeleniumLibrary">
 <arg>${Webelement}</arg>
 <doc>Clears the value of the text-input-element identified by ``locator``.</doc>
-<status status="PASS" start="2024-09-19T11:49:48.156920" elapsed="0.283831"/>
+<status status="PASS" start="2024-09-19T13:35:06.475834" elapsed="0.230785"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2024-09-19T11:49:48.442240" level="INFO">Typing text '*Pavan@7351' into text field 'xpath://*[@placeholder='Enter password']'.</msg>
+<msg time="2024-09-19T13:35:06.706797" level="INFO">Typing text '*Pavan@7351' into text field 'xpath://*[@placeholder='Enter password']'.</msg>
 <arg>${Webelement}</arg>
 <arg>${input_text_value}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2024-09-19T11:49:48.441745" elapsed="0.470765"/>
+<status status="PASS" start="2024-09-19T13:35:06.706797" elapsed="0.375903"/>
 </kw>
 <arg>${txt_loginpagepassword}</arg>
 <arg>${password}</arg>
-<status status="PASS" start="2024-09-19T11:49:47.552336" elapsed="1.360447"/>
+<status status="PASS" start="2024-09-19T13:35:05.914592" elapsed="1.168108"/>
 </kw>
 <arg>${password}</arg>
-<status status="PASS" start="2024-09-19T11:49:47.550802" elapsed="1.362205"/>
+<status status="PASS" start="2024-09-19T13:35:05.914592" elapsed="1.168108"/>
 </kw>
 <kw name="Click_Login_Button_OnLoginpage" owner="LoginPage_Keyword">
 <kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
 <arg>${txt_clickloginbutton}</arg>
 <doc>Waits until the element ``locator`` appears on the current page.</doc>
-<status status="PASS" start="2024-09-19T11:49:48.913007" elapsed="0.112447"/>
+<status status="PASS" start="2024-09-19T13:35:07.082700" elapsed="0.107810"/>
 </kw>
 <kw name="checking_button_displayed_status-and_click_on_button" owner="Common_Functions">
 <kw name="Element Should Be Visible" owner="SeleniumLibrary">
-<msg time="2024-09-19T11:49:49.249481" level="INFO">Element 'xpath://*[text()='Login']' is displayed.</msg>
+<msg time="2024-09-19T13:35:07.407405" level="INFO">Element 'xpath://*[text()='Login']' is displayed.</msg>
 <arg>${Webelement}</arg>
 <doc>Verifies that the element identified by ``locator`` is visible.</doc>
-<status status="PASS" start="2024-09-19T11:49:49.025454" elapsed="0.224027"/>
+<status status="PASS" start="2024-09-19T13:35:07.190510" elapsed="0.216895"/>
 </kw>
 <kw name="Click Button" owner="SeleniumLibrary">
-<msg time="2024-09-19T11:49:49.250899" level="INFO">Clicking button 'xpath://*[text()='Login']'.</msg>
+<msg time="2024-09-19T13:35:07.408459" level="INFO">Clicking button 'xpath://*[text()='Login']'.</msg>
 <arg>${Webelement}</arg>
 <doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2024-09-19T11:49:49.249979" elapsed="0.821052"/>
+<status status="PASS" start="2024-09-19T13:35:07.407405" elapsed="0.774912"/>
 </kw>
 <arg>${txt_clickloginbutton}</arg>
-<status status="PASS" start="2024-09-19T11:49:49.025454" elapsed="1.045956"/>
+<status status="PASS" start="2024-09-19T13:35:07.190510" elapsed="0.991807"/>
 </kw>
-<status status="PASS" start="2024-09-19T11:49:48.913007" elapsed="1.158403"/>
+<status status="PASS" start="2024-09-19T13:35:07.082700" elapsed="1.099617"/>
 </kw>
 <tag>Smoke Test</tag>
 <doc>Testing Login With Valid Credentials</doc>
-<status status="PASS" start="2024-09-19T11:49:40.237020" elapsed="9.834390"/>
+<status status="PASS" start="2024-09-19T13:34:58.719270" elapsed="9.463047"/>
 </kw>
 <kw name="Click_On_User_Profile_Icon" owner="UserProfilePage_Keyword">
 <try>
 <branch type="TRY">
 <kw name="checking_icon_displayed_status-and_click_on_Icon" owner="Common_Functions">
 <kw name="Element Should Be Visible" owner="SeleniumLibrary">
-<msg time="2024-09-19T11:50:00.369122" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
-<msg time="2024-09-19T11:50:00.369534" level="FAIL">Element with locator 'xpath://div[@class='user-profile-image']' not found.</msg>
+<msg time="2024-09-19T13:35:18.478690" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2024-09-19T13:35:18.478690" level="FAIL">Element with locator 'xpath://div[@class='user-profile-image']' not found.</msg>
 <arg>${Web-element}</arg>
 <doc>Verifies that the element identified by ``locator`` is visible.</doc>
-<status status="FAIL" start="2024-09-19T11:49:50.074480" elapsed="10.303497">Element with locator 'xpath://div[@class='user-profile-image']' not found.</status>
+<status status="FAIL" start="2024-09-19T13:35:08.184803" elapsed="10.299826">Element with locator 'xpath://div[@class='user-profile-image']' not found.</status>
 </kw>
 <kw name="Click Element" owner="SeleniumLibrary">
 <arg>${Web-element}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="NOT RUN" start="2024-09-19T11:50:00.378971" elapsed="0.000496"/>
+<status status="NOT RUN" start="2024-09-19T13:35:18.485117" elapsed="0.000000"/>
 </kw>
 <arg>${icon_userProfileImage}</arg>
-<status status="FAIL" start="2024-09-19T11:49:50.073983" elapsed="10.305484">Element with locator 'xpath://div[@class='user-profile-image']' not found.</status>
+<status status="FAIL" start="2024-09-19T13:35:08.183808" elapsed="10.301806">Element with locator 'xpath://div[@class='user-profile-image']' not found.</status>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>"clicked on profile with image"</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="NOT RUN" start="2024-09-19T11:50:00.380500" elapsed="0.000000"/>
+<status status="NOT RUN" start="2024-09-19T13:35:18.485614" elapsed="0.000511"/>
 </kw>
-<status status="FAIL" start="2024-09-19T11:49:50.073004" elapsed="10.307496">Element with locator 'xpath://div[@class='user-profile-image']' not found.</status>
+<status status="FAIL" start="2024-09-19T13:35:08.183435" elapsed="10.302690">Element with locator 'xpath://div[@class='user-profile-image']' not found.</status>
 </branch>
 <branch type="EXCEPT">
 <kw name="checking_icon_displayed_status-and_click_on_Icon" owner="Common_Functions">
 <kw name="Element Should Be Visible" owner="SeleniumLibrary">
-<msg time="2024-09-19T11:50:00.602669" level="INFO">Element 'xpath://span[@class='user-image']' is displayed.</msg>
+<msg time="2024-09-19T13:35:18.711123" level="INFO">Element 'xpath://span[@class='user-image']' is displayed.</msg>
 <arg>${Web-element}</arg>
 <doc>Verifies that the element identified by ``locator`` is visible.</doc>
-<status status="PASS" start="2024-09-19T11:50:00.383536" elapsed="0.219133"/>
+<status status="PASS" start="2024-09-19T13:35:18.487610" elapsed="0.223513"/>
 </kw>
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2024-09-19T11:50:00.603124" level="INFO">Clicking element 'xpath://span[@class='user-image']'.</msg>
+<msg time="2024-09-19T13:35:18.711123" level="INFO">Clicking element 'xpath://span[@class='user-image']'.</msg>
 <arg>${Web-element}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2024-09-19T11:50:00.602669" elapsed="0.267915"/>
+<status status="PASS" start="2024-09-19T13:35:18.711123" elapsed="0.246396"/>
 </kw>
 <arg>${icon_userImage}</arg>
-<status status="PASS" start="2024-09-19T11:50:00.380500" elapsed="0.490084"/>
+<status status="PASS" start="2024-09-19T13:35:18.486607" elapsed="0.470912"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>"clicked on profile without image"</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-09-19T11:50:00.871082" elapsed="0.000000"/>
+<status status="PASS" start="2024-09-19T13:35:18.957519" elapsed="0.000000"/>
 </kw>
-<status status="PASS" start="2024-09-19T11:50:00.380500" elapsed="0.493115"/>
+<status status="PASS" start="2024-09-19T13:35:18.486125" elapsed="0.471394"/>
 </branch>
-<status status="PASS" start="2024-09-19T11:49:50.073004" elapsed="10.800611"/>
+<status status="PASS" start="2024-09-19T13:35:08.183435" elapsed="10.775511"/>
 </try>
-<status status="PASS" start="2024-09-19T11:49:50.071946" elapsed="10.802190"/>
+<status status="PASS" start="2024-09-19T13:35:08.182814" elapsed="10.776132"/>
 </kw>
 <kw name="Upload_Profile_Picture_And_Validate_Success_Message" owner="UserProfilePage_Keyword">
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2024-09-19T11:50:00.874657" level="INFO">Clicking element 'xpath://li[normalize-space()='Profile']'.</msg>
+<msg time="2024-09-19T13:35:18.959938" level="INFO">Clicking element 'xpath://li[normalize-space()='Profile']'.</msg>
 <arg>${icon_Profile}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2024-09-19T11:50:00.874657" elapsed="0.300771"/>
+<status status="PASS" start="2024-09-19T13:35:18.959938" elapsed="0.272362"/>
 </kw>
 <kw name="checking_icon_displayed_status-and_click_on_Icon" owner="Common_Functions">
 <kw name="Element Should Be Visible" owner="SeleniumLibrary">
-<msg time="2024-09-19T11:50:01.401852" level="INFO">Element 'xpath://button[text()='Edit Profile ']' is displayed.</msg>
+<msg time="2024-09-19T13:35:19.455407" level="INFO">Element 'xpath://button[text()='Edit Profile ']' is displayed.</msg>
 <arg>${Web-element}</arg>
 <doc>Verifies that the element identified by ``locator`` is visible.</doc>
-<status status="PASS" start="2024-09-19T11:50:01.175428" elapsed="0.226424"/>
+<status status="PASS" start="2024-09-19T13:35:19.233518" elapsed="0.222067"/>
 </kw>
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2024-09-19T11:50:01.401852" level="INFO">Clicking element 'xpath://button[text()='Edit Profile ']'.</msg>
+<msg time="2024-09-19T13:35:19.456578" level="INFO">Clicking element 'xpath://button[text()='Edit Profile ']'.</msg>
 <arg>${Web-element}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2024-09-19T11:50:01.401852" elapsed="0.288958"/>
+<status status="PASS" start="2024-09-19T13:35:19.456082" elapsed="0.273987"/>
 </kw>
 <arg>${icon_editProfile}</arg>
-<status status="PASS" start="2024-09-19T11:50:01.175428" elapsed="0.515879"/>
+<status status="PASS" start="2024-09-19T13:35:19.232977" elapsed="0.497092"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2024-09-19T11:50:03.693645" level="INFO">Slept 2 seconds.</msg>
+<msg time="2024-09-19T13:35:21.730496" level="INFO">Slept 2 seconds.</msg>
 <arg>2</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2024-09-19T11:50:01.692588" elapsed="2.001057"/>
+<status status="PASS" start="2024-09-19T13:35:19.730069" elapsed="2.000767"/>
 </kw>
 <kw name="Choose File" owner="SeleniumLibrary">
-<msg time="2024-09-19T11:50:03.693645" level="INFO">Sending C:\Users\puchha.pavan\PycharmProjects\Telus_iTIA_Powered_by_Fuel_iX\iTIA_Powered_by_Fuel_iX\itia_datafiles\pic5.jpg to browser.</msg>
+<msg time="2024-09-19T13:35:21.730836" level="INFO">Sending C:\Users\puchha.pavan\PycharmProjects\Telus_iTIA_Powered_by_Fuel_iX\iTIA_Powered_by_Fuel_iX\itia_datafiles\pic5.jpg to browser.</msg>
 <arg>xpath://label[contains(text(),'Upload image')]//following::input[@data-testid='uploadAvatar']</arg>
 <arg>${image_file3}</arg>
 <doc>Inputs the ``file_path`` into the file input field ``locator``.</doc>
-<status status="PASS" start="2024-09-19T11:50:03.693645" elapsed="0.231700"/>
+<status status="PASS" start="2024-09-19T13:35:21.730836" elapsed="0.231093"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2024-09-19T11:50:05.925872" level="INFO">Slept 2 seconds.</msg>
+<msg time="2024-09-19T13:35:23.962194" level="INFO">Slept 2 seconds.</msg>
 <arg>2</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2024-09-19T11:50:03.925345" elapsed="2.000527"/>
+<status status="PASS" start="2024-09-19T13:35:21.961929" elapsed="2.000265"/>
 </kw>
 <kw name="checking_button_displayed_status-and_click_on_button" owner="Common_Functions">
 <kw name="Element Should Be Visible" owner="SeleniumLibrary">
-<msg time="2024-09-19T11:50:06.150570" level="INFO">Element 'xpath://button[normalize-space()='Save']' is displayed.</msg>
+<msg time="2024-09-19T13:35:24.184640" level="INFO">Element 'xpath://button[normalize-space()='Save']' is displayed.</msg>
 <arg>${Webelement}</arg>
 <doc>Verifies that the element identified by ``locator`` is visible.</doc>
-<status status="PASS" start="2024-09-19T11:50:05.926864" elapsed="0.223706"/>
+<status status="PASS" start="2024-09-19T13:35:23.962194" elapsed="0.222446"/>
 </kw>
 <kw name="Click Button" owner="SeleniumLibrary">
-<msg time="2024-09-19T11:50:06.150570" level="INFO">Clicking button 'xpath://button[normalize-space()='Save']'.</msg>
+<msg time="2024-09-19T13:35:24.184640" level="INFO">Clicking button 'xpath://button[normalize-space()='Save']'.</msg>
 <arg>${Webelement}</arg>
 <doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2024-09-19T11:50:06.150570" elapsed="0.564867"/>
+<status status="PASS" start="2024-09-19T13:35:24.184640" elapsed="0.551704"/>
 </kw>
 <arg>${button_UserProfile_Save}</arg>
-<status status="PASS" start="2024-09-19T11:50:05.926369" elapsed="0.789068"/>
+<status status="PASS" start="2024-09-19T13:35:23.962194" elapsed="0.774150"/>
 </kw>
 <kw name="verifying_validation_message" owner="Common_Functions">
 <kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
 <arg>${Webelement}</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" start="2024-09-19T11:50:06.715437" elapsed="0.498004"/>
+<status status="PASS" start="2024-09-19T13:35:24.736623" elapsed="0.482086"/>
 </kw>
 <kw name="Get Text" owner="SeleniumLibrary">
-<msg time="2024-09-19T11:50:07.436156" level="INFO">${toast_msg} = User profile edited successfully.</msg>
+<msg time="2024-09-19T13:35:25.453678" level="INFO">${toast_msg} = User profile edited successfully.</msg>
 <var>${toast_msg}</var>
 <arg>${Webelement}</arg>
 <doc>Returns the text value of the element identified by ``locator``.</doc>
-<status status="PASS" start="2024-09-19T11:50:07.214090" elapsed="0.222066"/>
+<status status="PASS" start="2024-09-19T13:35:25.218727" elapsed="0.234951"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>${toast_msg}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-09-19T11:50:07.436156" elapsed="0.000000"/>
+<status status="PASS" start="2024-09-19T13:35:25.454175" elapsed="0.000496"/>
 </kw>
 <kw name="Should Be Equal" owner="BuiltIn">
 <arg>${toast_msg}</arg>
 <arg>${Expected_message}</arg>
 <doc>Fails if the given objects are unequal.</doc>
-<status status="PASS" start="2024-09-19T11:50:07.436156" elapsed="0.000000"/>
+<status status="PASS" start="2024-09-19T13:35:25.454671" elapsed="0.000497"/>
 </kw>
 <arg>${Success_Message}</arg>
 <arg>User profile edited successfully.</arg>
-<status status="PASS" start="2024-09-19T11:50:06.715437" elapsed="0.720719"/>
+<status status="PASS" start="2024-09-19T13:35:24.736623" elapsed="0.718987"/>
 </kw>
-<status status="PASS" start="2024-09-19T11:50:00.874657" elapsed="6.561499"/>
+<status status="PASS" start="2024-09-19T13:35:18.959441" elapsed="6.496169"/>
 </kw>
 <kw name="Closing_The_Browser" owner="BaseClass_Keyword" type="TEARDOWN">
 <kw name="Run Keyword If Test Failed" owner="BuiltIn">
 <arg>Capture Page Screenshot</arg>
 <arg>Faild_screenshot.png</arg>
 <doc>Runs the given keyword with the given arguments, if the test failed.</doc>
-<status status="PASS" start="2024-09-19T11:50:07.436156" elapsed="0.000000"/>
+<status status="PASS" start="2024-09-19T13:35:25.456162" elapsed="0.000000"/>
 </kw>
 <kw name="Close Browser" owner="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" start="2024-09-19T11:50:07.436156" elapsed="2.231071"/>
+<status status="PASS" start="2024-09-19T13:35:25.456162" elapsed="2.340682"/>
 </kw>
 <doc>This keyword for closing the current browser</doc>
-<status status="PASS" start="2024-09-19T11:50:07.436156" elapsed="2.231568"/>
+<status status="PASS" start="2024-09-19T13:35:25.455610" elapsed="2.341234"/>
 </kw>
 <doc>This is test for verifying if user is able to successfully edit/Add the Profile Image in user profile section</doc>
 <tag>functional testcase</tag>
-<status status="PASS" start="2024-09-19T11:49:32.303113" elapsed="37.364611"/>
+<status status="PASS" start="2024-09-19T13:34:50.047809" elapsed="37.749035"/>
 </test>
-<status status="PASS" start="2024-09-19T11:49:31.953352" elapsed="37.714372"/>
+<status status="PASS" start="2024-09-19T13:34:49.662971" elapsed="38.133873"/>
 </suite>
-<status status="PASS" start="2024-09-19T11:49:31.937571" elapsed="37.730153"/>
+<status status="PASS" start="2024-09-19T13:34:49.651557" elapsed="38.145287"/>
 </suite>
 <statistics>
 <total>

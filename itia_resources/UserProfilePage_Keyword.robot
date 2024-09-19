@@ -69,7 +69,7 @@ Upload_Profile_Picture_And_Validate_Success_Message
     Click Element        ${icon_Profile}
     Checking_icon_displayed_status-and_click_on_Icon        ${icon_editProfile}
 #    Checking_icon_displayed_status-and_click_on_Icon        ${icon_uploadProfilePicture}
-    #Input Text     //input[@id='uploadFlie']    f"{Path.cwd()}/Files/scratch.jpg"
+    #Input Text     //input[@id='uploadFlie']    f"{Path.cwd()}/Files_RPA/scratch.jpg"
 #    ${File_To_Upload1}    scratch.jpg
 #    ${image_file1}        ${CURDIR}${/}${File_To_Upload1}
     Sleep    2
