@@ -1,0 +1,96 @@
+==============================================================================
+Itia Testcases                                                                
+==============================================================================
+Itia Testcases.ChatbotPage TC                                                 
+==============================================================================
+Itia Testcases.ChatbotPage TC.Test Verify Chatbot Import Icon Functionality   
+==============================================================================
+Verify Chatbot Import Icon Functionality :: Verify_Chatbot_Import_...   
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\puchha.pavan\PycharmProjects\Telus_iTIA_Powered_by_Fuel_iX\iTIA_Powered_by_Fuel_iX\itia_testcases\ChatbotPage_TC\Test_Verify_Chatbot_Import_Icon_Functionality.robot:8
+    T:  Verify Chatbot Import Icon Functionality    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\puchha.pavan\PycharmProjects\Telus_iTIA_Powered_by_Fuel_iX\iTIA_Powered_by_Fuel_iX\itia_testcases\ChatbotPage_TC\Test_Verify_Chatbot_Import_Icon_Functionality.robot:4
+      Launching_The_Browser    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\puchha.pavan\PycharmProjects\Telus_iTIA_Powered_by_Fuel_iX\iTIA_Powered_by_Fuel_iX\itia_resources\BaseClass_Keyword.robot:8
+      Maximize Browser Window    
+______________________________________________________________________________
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\puchha.pavan\PycharmProjects\Telus_iTIA_Powered_by_Fuel_iX\iTIA_Powered_by_Fuel_iX\itia_testcases\ChatbotPage_TC\Test_Verify_Chatbot_Import_Icon_Functionality.robot:8
+    T:  Verify Chatbot Import Icon Functionality    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\puchha.pavan\PycharmProjects\Telus_iTIA_Powered_by_Fuel_iX\iTIA_Powered_by_Fuel_iX\itia_testcases\ChatbotPage_TC\Test_Verify_Chatbot_Import_Icon_Functionality.robot:5
+      Closing_The_Browser    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\puchha.pavan\PycharmProjects\Telus_iTIA_Powered_by_Fuel_iX\iTIA_Powered_by_Fuel_iX\itia_resources\BaseClass_Keyword.robot:15
+      Run Keyword If Test Failed    Capture Page Screenshot    Faild_screenshot.png
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\puchha.pavan\PycharmProjects\Telus_iTIA_Powered_by_Fuel_iX\iTIA_Powered_by_Fuel_iX\itia_resources\BaseClass_Keyword.robot:15
+      Capture Page Screenshot    Faild_screenshot.png
+______________________________________________________________________________
+| FAIL |
+Setup failed:
+NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=128.0.6613.138)
+Stacktrace:
+	GetHandleVerifier [0x00007FF615929412+29090]
+	(No symbol) [0x00007FF61589E239]
+	(No symbol) [0x00007FF61575B1DA]
+	(No symbol) [0x00007FF61572FAF5]
+	(No symbol) [0x00007FF6157DE2C7]
+	(No symbol) [0x00007FF6157F5EB1]
+	(No symbol) [0x00007FF6157D6493]
+	(No symbol) [0x00007FF6157A09D1]
+	(No symbol) [0x00007FF6157A1B31]
+	GetHandleVerifier [0x00007FF615C4871D+3302573]
+	GetHandleVerifier [0x00007FF615C94243+3612627]
+	GetHandleVerifier [0x00007FF615C8A417+3572135]
+	GetHandleVerifier [0x00007FF6159E5EB6+801862]
+	(No symbol) [0x00007FF6158A945F]
+	(No symbol) [0x00007FF6158A4FB4]
+	(No symbol) [0x00007FF6158A5140]
+	(No symbol) [0x00007FF61589461F]
+	BaseThreadInitThunk [0x00007FF869977374+20]
+	RtlUserThreadStart [0x00007FF869C5CC91+33]
+
+
+Also teardown failed:
+NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=128.0.6613.138)
+Stacktrace:
+	GetHandleVerifier [0x00007FF615929412+29090]
+	(No symbol) [0x00007FF61589E239]
+	(No symbol) [0x00007FF61575B1DA]
+	(No symbol) [0x00007FF61572FAF5]
+	(No symbol) [0x00007FF6157DE2C7]
+	(No symbol) [0x00007FF6157F5EB1]
+	(No symbol) [0x00007FF6157D6493]
+	(No symbol) [0x00007FF6157A09D1]
+	(No symbol) [0x00007FF6157A1B31]
+	GetHandleVerifier [0x00007FF615C4871D+3302573]
+	GetHandleVerifier [0x00007FF615C94243+3612627]
+	GetHandleVerifier [0x00007FF615C8A417+3572135]
+	GetHandleVerifier [0x00007FF6159E5EB6+801862]
+	(No symbol) [0x00007FF6158A945F]
+	(No symbol) [0x00007FF6158A4FB4]
+	(No symbol) [0x00007FF6158A5140]
+	(No symbol) [0x00007FF61589461F]
+	BaseThreadInitThunk [0x00007FF869977374+20]
+	RtlUserThreadStart [0x00007FF869C5CC91+33]
+------------------------------------------------------------------------------
+Itia Testcases.ChatbotPage TC.Test Verify Chatbot Import Icon Func... | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Itia Testcases.ChatbotPage TC                                         | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Itia Testcases                                                        | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\puchha.pavan\PycharmProjects\Telus_iTIA_Powered_by_Fuel_iX\iTIA_Powered_by_Fuel_iX\Results\pabot_results\2\output.xml

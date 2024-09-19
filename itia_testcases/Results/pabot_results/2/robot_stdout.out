@@ -1,0 +1,16 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Test Verify Edit Display Name                                          
+==============================================================================
+Test_Verify_Edit_Display_Name :: This is test for verifying if use... "clicked on profile with image"
+User profile edited successfully.
+| PASS |
+------------------------------------------------------------------------------
+Suites.Test Verify Edit Display Name                                  | PASS |
+1 test, 1 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+1 test, 1 passed, 0 failed
+==============================================================================
+Output:  C:\Users\puchha.pavan\PycharmProjects\Telus_iTIA_Powered_by_Fuel_iX\iTIA_Powered_by_Fuel_iX\itia_testcases\Results\pabot_results\2\output.xml
